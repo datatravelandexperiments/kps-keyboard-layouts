@@ -1,0 +1,10 @@
+[symbols.kps]
+country = ['US', 'UK', 'CA', 'AU', 'NZ']
+language = 'eng'
+
+[symbols.kps.variant]
+english =   {description='English'}
+math =      {description='Math'}
+lgp30 =     {description='LGP-30'}
+jquote =    {description='JQuote'}
+fullwidth = {description='Fullwidth'}

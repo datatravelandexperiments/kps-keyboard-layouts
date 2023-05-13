@@ -1,0 +1,37 @@
+#!/bin/sh
+
+DST_DIR=/usr/share/X11/xkb
+DST_RULES=evdev
+
+SRC_XKB=kps.xkb
+SRC_TOML=install/rules.toml
+
+MERGE_TOOL=install/xkb_rules_merge.py
+
+# # # # # # #
+
+set -e
+
+TMP_LST=${TMPDIR:-/tmp}/xkb-lst-$$
+TMP_XML=${TMPDIR:-/tmp}/xkb-xml-$$
+trap "rm -f \"$TMP_LST\" \"$TMP_XML\"" 0
+trap exit 1 2 13 15
+
+DST_LST="$DST_DIR/rules/$DST_RULES.lst"
+DST_XML="$DST_DIR/rules/$DST_RULES.xml"
+DST_XKB="$DST_DIR/symbols/${SRC_XKB%.xkb}"
+
+if test -e "$DST_XKB"
+then
+  echo >&2 "$DST_XKB exists"
+  exit 1
+fi
+
+$MERGE_TOOL --rules-lst "$DST_LST" "$SRC_TOML" >"$TMP_LST"
+$MERGE_TOOL --rules-xml "$DST_XML" "$SRC_TOML" >"$TMP_XML"
+
+cp "$SRC_XKB" "$DST_XKB"
+cp "$TMP_LST" "$DST_LST"
+cp "$TMP_XML" "$DST_XML"
+
+exit 0

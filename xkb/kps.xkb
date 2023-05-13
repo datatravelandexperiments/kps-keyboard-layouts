@@ -1,0 +1,340 @@
+partial alphanumeric_keys
+xkb_symbols "english" {
+
+  name[Group1]= "English";
+
+// ┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬───────┐
+// │ ~“ │ !¡ │ @• │ #♯ │ $€ │ %‱ │ ^∧ │ &§ │ *° │ (′ │ )″ │ _— │ +± │       │
+// │ `‘ │ 1¬ │ 2· │ 3£ │ 4¢ │ 5‰ │ 6^ │ 7¶ │ 8× │ 9† │ 0‡ │ -– │ =≠ │       │
+// ├────┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬────┤
+// │       │ QÞ │ WΩ │ Eə │ R® │ T™ │ Y¥ │ U∪ │ I∩ │ OŒ │ P℞ │ {« │ }» │ |⌦ │
+// │       │ qþ │ w` │ e´ │ r↵ │ t∴ │ y⇒ │ u¨ │ i∞ │ oœ │ pπ │ [‹ │ ]› │ \⌫ │
+// ├───────┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴────┤
+// │         │ AÆ │ Sſ │ DÐ │ F⁄ │ G℄ │ H← │ J↓ │ K↑ │ L→ │ :⋮ │ "” │       │
+// │         │ aæ │ s² │ dð │ f½ │ gγ │ h‐ │ j­ │ k⇧ │ l↦ │ ;… │ '’ │       │
+// ├───────┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴───────┤
+// │       │ >≥ │ Z⎇ │ X⊻ │ C© │ V∨ │ B♭ │ N♮ │ Mµ │ <≪ │ >≫ │ ?¿ │         │
+// │       │ <≤ │ z⌥ │ x₂ │ c⌘ │ v√ │ b␣ │ n~ │ m− │ ,≤ │ .≥ │ /÷ │         │
+// └───────┴────┴────┴┬───┴────┴────┴────┴────┴────┴───┬┴────┴────┴─────────┘
+//                    │           space   thinsp       │
+//                    │           space   nbsp         │
+//                    └────────────────────────────────┘
+
+  key <TLDE> {[grave,        asciitilde,  leftsinglequotemark,
+    leftdoublequotemark]};
+  key <AE01> {[1,            exclam,      notsign,           exclamdown      ]};
+  key <AE02> {[2,            at,          periodcentered,    enfilledcircbullet]};
+  key <AE03> {[3,            numbersign,  sterling,          U266F           ]};
+  key <AE04> {[4,            dollar,      cent,              EuroSign        ]};
+  key <AE05> {[5,            percent,     U2030,             U2031           ]};
+  key <AE06> {[6,            asciicircum, dead_circumflex,   logicaland      ]};
+  key <AE07> {[7,            ampersand,   paragraph,         section         ]};
+  key <AE08> {[8,            asterisk,    multiply,          degree          ]};
+  key <AE09> {[9,            parenleft,   dagger,            U2032           ]};
+  key <AE10> {[0,            parenright,  doubledagger,      U2033           ]};
+  key <AE11> {[minus,        underscore,  endash,            emdash          ]};
+  key <AE12> {[equal,        plus,        notequal,          plusminus       ]};
+
+  key <AD01> {[q,            Q,           thorn,             THORN           ]};
+  key <AD02> {[w,            W,           dead_grave,        Greek_OMEGA     ]};
+  key <AD03> {[e,            E,           dead_acute,        schwa           ]};
+  key <AD04> {[r,            R,           U21B5,             registered      ]};
+  key <AD05> {[t,            T,           therefore,         trademark       ]};
+  key <AD06> {[y,            Y,           U21D2,             yen             ]};
+  key <AD07> {[u,            U,           dead_diaeresis,    union           ]};
+  key <AD08> {[i,            I,           infinity,          intersection    ]};
+  key <AD09> {[o,            O,           oe,                OE              ]};
+  key <AD10> {[p,            P,           Greek_pi,          U211E           ]};
+  key <AD11> {[bracketleft,  braceleft,   U2039,             guillemotleft   ]};
+  key <AD12> {[bracketright, braceright,  U203A,             guillemotright  ]};
+  key <BKSL> {[backslash,    bar,         U232B,             U2326           ]};
+
+  key <AC01> {[a,            A,           ae,                AE              ]};
+  key <AC02> {[s,            S,           dead_A,            U017F           ]};
+  key <AC03> {[d,            D,           eth,               ETH             ]};
+  key <AC04> {[f,            F,           Multi_key,         U2044           ]};
+  key <AC05> {[g,            G,           dead_greek,        U2104           ]};
+  key <AC06> {[h,            H,           U2010,             leftarrow       ]};
+  key <AC07> {[j,            J,           hyphen,            downarrow       ]};
+  key <AC08> {[k,            K,           U21E7,             uparrow         ]};
+  key <AC09> {[l,            L,           U21A6,             rightarrow      ]};
+  key <AC10> {[semicolon,    colon,       ellipsis,          U22EE           ]};
+  key <AC11> {[apostrophe,   quotedbl,    rightsinglequotemark,
+    rightdoublequotemark]};
+
+  key <AB01> {[z,            Z,           U2325,             U2387           ]};
+  key <AB02> {[x,            X,           dead_U,            U22BB           ]};
+  key <AB03> {[c,            C,           U2318,             copyright       ]};
+  key <AB04> {[v,            V,           squareroot,        logicalor       ]};
+  key <AB05> {[b,            B,           U2423,             U266D           ]};
+  key <AB06> {[n,            N,           dead_tilde,        U266E           ]};
+  key <AB07> {[m,            M,           U2212,             mu              ]};
+  key <AB08> {[comma,        less,        lessthanequal,     U226A           ]};
+  key <AB09> {[period,       greater,     greaterthanequal,  U226B           ]};
+  key <AB10> {[slash,        question,    division,          questiondown    ]};
+
+  key <LSGT> {[less,         greater,     lessthanequal,     greaterthanequal]};
+  key <AB11> {[sterling,     paragraph,   U226A,             U226B           ]};
+  key <I126> {[plusminus,    degree,      diaeresis,         enopencircbullet]};
+  key <SPCE> {[space,        space,       nobreakspace,      thinspace       ]};
+
+  // End alphanumeric section
+
+  // from compose(paus)
+  key <PAUS> { type[Group1]="TWO_LEVEL", [ Multi_key, Multi_key ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "lgp30" {
+  name[Group1]= "LGP-30";
+  include "kps(english)"
+  key <AD05> {[t,            T,           U1D40,             trademark       ]};
+};
+
+partial alphanumeric_keys
+xkb_symbols "jquote" {
+  name[Group1]= "JQuote";
+  include "kps(english)"
+  key <AD11> {[bracketleft,  braceleft,   U300C,             guillemotleft   ]};
+  key <AD12> {[bracketright, braceright,  U300D,             guillemotright  ]};
+};
+
+partial alphanumeric_keys
+xkb_symbols "controls" {
+  name[Group1]= "Control characters";
+  include "kps(english)"
+
+  key <TLDE> {[U0000,     asciitilde,  leftsinglequotemark, leftdoublequotemark]};
+  key <AC01> {[U0001,     A,           ae,                  AE              ]};
+  key <AB05> {[U0002,     B,           U2423,               U266D           ]};
+  key <AB03> {[U0003,     C,           U2318,               copyright       ]};
+  key <AC03> {[U0004,     D,           eth,                 ETH             ]};
+  key <AD03> {[U0005,     E,           dead_acute,          schwa           ]};
+  key <AC04> {[U0006,     F,           Multi_key,           U2044           ]};
+  key <AC05> {[U0007,     G,           dead_greek,          U2104           ]};
+  key <AC06> {[BackSpace, H,           U2010,               leftarrow       ]};
+  key <AD08> {[Tab,       I,           infinity,            intersection    ]};
+  key <AC07> {[Linefeed,  J,           hyphen,              downarrow       ]};
+  key <AC08> {[U000B,     K,           U21E7,               uparrow         ]};
+  key <AC09> {[U000C,     L,           U21A6,               rightarrow      ]};
+  key <AB07> {[U000D,     M,           U2212,               mu              ]};
+  key <AB06> {[U000E,     N,           dead_tilde,          U266E           ]};
+  key <AD09> {[U000F,     O,           oe,                  OE              ]};
+  key <AD10> {[U0010,     P,           Greek_pi,            U211E           ]};
+  key <AD01> {[U0011,     Q,           thorn,               THORN           ]};
+  key <AD04> {[U0012,     R,           U21B5,               registered      ]};
+  key <AC02> {[U0013,     S,           dead_circumflex,     U017F           ]};
+  key <AD05> {[U0014,     T,           therefore,           trademark       ]};
+  key <AD07> {[U0015,     U,           dead_diaeresis,      union           ]};
+  key <AB04> {[U0016,     V,           squareroot,          logicalor       ]};
+  key <AD02> {[U0017,     W,           dead_grave,          Greek_OMEGA     ]};
+  key <AB02> {[U0018,     X,           dead_caron,          U22BB           ]};
+  key <AD06> {[U0019,     Y,           U21D2,               yen             ]};
+  key <AB01> {[U001A,     Z,           U2325,               U2387           ]};
+  key <AD11> {[Escape,    braceleft,   U2039,               guillemotleft   ]};
+  key <AD12> {[U001C,     braceright,  U203A,               guillemotright  ]};
+  key <BKSL> {[U001D,     bar,         U232B,               U2326           ]};
+  key <AE11> {[U001E,     underscore,  endash,              emdash          ]};
+  key <AE12> {[U001F,     plus,        notequal,            plusminus       ]};
+};
+
+partial alphanumeric_keys
+xkb_symbols "math" {
+
+  name[Group1]= "Math";
+
+// ┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬───────┐
+// │ ~“ │ !¡ │ @∘ │ #∛ │ $€ │ %≉ │ ^∧ │ &§ │ *° │ (′ │ )″ │ _— │ +± │       │
+// │ `‘ │ 1¬ │ 2⋅ │ 3£ │ 4¢ │ 5≈ │ 6^ │ 7¶ │ 8× │ 9† │ 0‡ │ -– │ =≠ │       │
+// ├────┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬────┤
+// │       │ Qⅈ │ WΩ │ E∃ │ R⇎ │ T∵ │ Y⇏ │ U∪ │ I∩ │ O≢ │ P∏ │ {⟪ │ }⟫ │ |∕ │
+// │       │ qℯ │ w` │ e´ │ r⇔ │ t∴ │ y⇒ │ u¨ │ i∞ │ o≡ │ pπ │ [⟨ │ ]⟩ │ \∖ │
+// ├───────┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴─┬──┴────┤
+// │         │ A∀ │ S∑ │ D∆ │ F⁄ │ G∇ │ H← │ J↓ │ K↑ │ L→ │ :⋮ │ "” │       │
+// │         │ a⊕ │ s² │ d∂ │ f½ │ gγ │ hℵ │ j  │ k∎ │ l↦ │ ;… │ '’ │       │
+// ├───────┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴──┬─┴───────┤
+// │       │ >≥ │ Z⊈ │ X⊻ │ C⊄ │ V∨ │ B∉ │ N∅ │ Mµ │ <≪ │ >≫ │ ?¿ │         │
+// │       │ <≤ │ z⊆ │ x₂ │ c⊂ │ v√ │ b∈ │ n~ │ m− │ ,≤ │ .≥ │ /÷ │         │
+// └───────┴────┴────┴┬───┴────┴────┴────┴────┴────┴───┬┴────┴────┴─────────┘
+//                    │           space   thinsp       │
+//                    │           space   nbsp         │
+//                    └────────────────────────────────┘
+
+  key <TLDE> {[grave,        asciitilde,  leftsinglequotemark,
+    leftdoublequotemark]};
+  key <AE01> {[1,            exclam,      notsign,           exclamdown      ]};
+  key <AE02> {[2,            at,          U22C5,             U2218           ]};
+  key <AE03> {[3,            numbersign,  sterling,          U221B           ]};
+  key <AE04> {[4,            dollar,      cent,              EuroSign        ]};
+  key <AE05> {[5,            percent,     U2248,             U2249           ]};
+  key <AE06> {[6,            asciicircum, dead_circumflex,   logicaland      ]};
+  key <AE07> {[7,            ampersand,   paragraph,         section         ]};
+  key <AE08> {[8,            asterisk,    multiply,          degree          ]};
+  key <AE09> {[9,            parenleft,   dagger,            U2032           ]};
+  key <AE10> {[0,            parenright,  doubledagger,      U2033           ]};
+  key <AE11> {[minus,        underscore,  endash,            emdash          ]};
+  key <AE12> {[equal,        plus,        notequal,          plusminus       ]};
+
+  key <AD01> {[q,            Q,           U212F,             U2148           ]};
+  key <AD02> {[w,            W,           dead_grave,        Greek_OMEGA     ]};
+  key <AD03> {[e,            E,           dead_acute,        U2203           ]};
+  key <AD04> {[r,            R,           U21D4,             U21CE           ]};
+  key <AD05> {[t,            T,           therefore,         U2235           ]};
+  key <AD06> {[y,            Y,           U21D2,             U21CF           ]};
+  key <AD07> {[u,            U,           dead_diaeresis,    union           ]};
+  key <AD08> {[i,            I,           infinity,          intersection    ]};
+  key <AD09> {[o,            O,           U2261,             U2262           ]};
+  key <AD10> {[p,            P,           Greek_pi,          U220F           ]};
+  key <AD11> {[bracketleft,  braceleft,   U27E8,             U27EA           ]};
+  key <AD12> {[bracketright, braceright,  U27E9,             U27EB           ]};
+  key <BKSL> {[backslash,    bar,         U2216,             U2215           ]};
+
+  key <AC01> {[a,            A,           U2295,             U2200           ]};
+  key <AC02> {[s,            S,           dead_A,            U2211           ]};
+  key <AC03> {[d,            D,           U2202,             U2206           ]};
+  key <AC04> {[f,            F,           Multi_key,         U2044           ]};
+  key <AC05> {[g,            G,           dead_greek,        U2207           ]};
+  key <AC06> {[h,            H,           dead_E,            leftarrow       ]};
+  key <AC07> {[j,            J,           U2062,             downarrow       ]};
+  key <AC08> {[k,            K,           U220E,             uparrow         ]};
+  key <AC09> {[l,            L,           U21A6,             rightarrow      ]};
+  key <AC10> {[semicolon,    colon,       ellipsis,          U22EE           ]};
+  key <AC11> {[apostrophe,   quotedbl,    rightsinglequotemark,
+    rightdoublequotemark]};
+
+  key <AB01> {[z,            Z,           U2286,             U2288           ]};
+  key <AB02> {[x,            X,           dead_U,            U22BB           ]};
+  key <AB03> {[c,            C,           U2282,             U2284           ]};
+  key <AB04> {[v,            V,           squareroot,        logicalor       ]};
+  key <AB05> {[b,            B,           U2208,             U2209           ]};
+  key <AB06> {[n,            N,           dead_tilde,        U2205           ]};
+  key <AB07> {[m,            M,           U2212,             mu              ]};
+  key <AB08> {[comma,        less,        lessthanequal,     U226A           ]};
+  key <AB09> {[period,       greater,     greaterthanequal,  U226B           ]};
+  key <AB10> {[slash,        question,    division,          questiondown    ]};
+
+  key <LSGT> {[less,         greater,     lessthanequal,     greaterthanequal]};
+  key <AB11> {[sterling,     paragraph,   U226A,             U226B           ]};
+  key <I126> {[plusminus,    degree,      diaeresis,         enopencircbullet]};
+  key <SPCE> {[space,        space,       nobreakspace,      thinspace       ]};
+
+  // End alphanumeric section
+
+  // from compose(paus)
+  key <PAUS> { type[Group1]="TWO_LEVEL", [ Multi_key, Multi_key ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "fullwidth" {
+
+  name[Group1]= "Fullwidth";
+
+  key <TLDE> {[grave,        asciitilde,  UFF40, UFF5E ]};
+  key <AE01> {[1,            exclam,      UFF11, UFF01 ]};
+  key <AE02> {[2,            at,          UFF12, UFF20 ]};
+  key <AE03> {[3,            numbersign,  UFF13, UFF03 ]};
+  key <AE04> {[4,            dollar,      UFF14, UFF04 ]};
+  key <AE05> {[5,            percent,     UFF15, UFF05 ]};
+  key <AE06> {[6,            asciicircum, UFF16, UFF3E ]};
+  key <AE07> {[7,            ampersand,   UFF17, UFF06 ]};
+  key <AE08> {[8,            asterisk,    UFF18, UFF0A ]};
+  key <AE09> {[9,            parenleft,   UFF19, UFF08 ]};
+  key <AE10> {[0,            parenright,  UFF10, UFF09 ]};
+  key <AE11> {[minus,        underscore,  UFF0D, UFF3F ]};
+  key <AE12> {[equal,        plus,        UFF1D, UFF0B ]};
+
+  key <AD01> {[q,            Q,           UFF51, UFF31 ]};
+  key <AD02> {[w,            W,           UFF57, UFF37 ]};
+  key <AD03> {[e,            E,           UFF45, UFF25 ]};
+  key <AD04> {[r,            R,           UFF52, UFF32 ]};
+  key <AD05> {[t,            T,           UFF54, UFF34 ]};
+  key <AD06> {[y,            Y,           UFF59, UFF39 ]};
+  key <AD07> {[u,            U,           UFF55, UFF35 ]};
+  key <AD08> {[i,            I,           UFF49, UFF29 ]};
+  key <AD09> {[o,            O,           UFF4F, UFF2F ]};
+  key <AD10> {[p,            P,           UFF50, UFF30 ]};
+  key <AD11> {[bracketleft,  braceleft,   UFF3B, UFF5B ]};
+  key <AD12> {[bracketright, braceright,  UFF3D, UFF5D ]};
+  key <BKSL> {[backslash,    bar,         UFF3C, UFF5C ]};
+
+  key <AC01> {[a,            A,           UFF41, UFF21 ]};
+  key <AC02> {[s,            S,           UFF53, UFF33 ]};
+  key <AC03> {[d,            D,           UFF44, UFF24 ]};
+  key <AC04> {[f,            F,           UFF46, UFF26 ]};
+  key <AC05> {[g,            G,           UFF47, UFF27 ]};
+  key <AC06> {[h,            H,           UFF48, UFF28 ]};
+  key <AC07> {[j,            J,           UFF4A, UFF2A ]};
+  key <AC08> {[k,            K,           UFF4B, UFF2B ]};
+  key <AC09> {[l,            L,           UFF4C, UFF2C ]};
+  key <AC10> {[semicolon,    colon,       UFF1B, UFF1A ]};
+  key <AC11> {[apostrophe,   quotedbl,    UFF07, UFF02 ]};
+
+  key <AB01> {[z,            Z,           UFF5A, UFF3A ]};
+  key <AB02> {[x,            X,           UFF58, UFF38 ]};
+  key <AB03> {[c,            C,           UFF43, UFF23 ]};
+  key <AB04> {[v,            V,           UFF56, UFF36 ]};
+  key <AB05> {[b,            B,           UFF42, UFF22 ]};
+  key <AB06> {[n,            N,           UFF4E, UFF2E ]};
+  key <AB07> {[m,            M,           UFF4D, UFF2D ]};
+  key <AB08> {[comma,        less,        UFF0C, UFF1C ]};
+  key <AB09> {[period,       greater,     UFF0E, UFF1E ]};
+  key <AB10> {[slash,        question,    UFF0F, UFF1F ]};
+
+  key <LSGT> {[less,         greater,     lessthanequal,     greaterthanequal]};
+  key <AB11> {[sterling,     paragraph,   U226A,             U226B           ]};
+  key <I126> {[plusminus,    degree,      diaeresis,         enopencircbullet]};
+  key <SPCE> {[space,        space,       nobreakspace,      thinspace       ]};
+
+  // End alphanumeric section
+
+  // from compose(paus)
+  key <PAUS> { type[Group1]="TWO_LEVEL", [ Multi_key, Multi_key ] };
+};
+
+partial modifier_keys
+xkb_symbols "alt" {
+
+  key <LALT> { [ Alt_L, Alt_L ] };
+  modifier_map Mod1 { <LALT>, Alt_L };
+
+  key <RALT> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level3_Shift ]
+  };
+};
+
+partial modifier_keys
+xkb_symbols "kps1" {
+  name[Group1]= "English (KPS1)";
+  include "kps(english)"
+  include "kps(alt)"
+
+  key <LCTL> { [ Control_L ] };
+  key <RCTL> { [ Control_R ] };
+  replace key <LWIN> { [ Super_L ] };
+  replace key <RWIN> { [ Super_R ] };
+  modifier_map Control { <LCTL>, <RCTL> };
+  modifier_map Mod4 { <LWIN>, <RWIN> };
+};
+
+partial modifier_keys
+xkb_symbols "kps1c" {
+  name[Group1]= "English (KPS1c)";
+  include "kps(english)"
+  include "kps(alt)"
+
+  key <LCTL> { [ Control_L ] };
+  key <RCTL> { [ Control_R ] };
+  replace key <LWIN> {
+    type[Group1] = "ONE_LEVEL",
+    symbols[Group1] = [ Control_L ],
+    actions[Group1] = [ SetMods(modifiers=Control) ]
+  };
+  replace key <RWIN> {
+    type[Group1] = "ONE_LEVEL",
+    symbols[Group1] = [ Control_R ],
+    actions[Group1] = [ SetMods(modifiers=Control) ]
+  };
+  modifier_map Control { <LWIN>, <RWIN> };
+};
+
