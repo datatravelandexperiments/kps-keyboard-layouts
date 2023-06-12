@@ -1,0 +1,4125 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Last edited by Ukelele version 2.2.8 on 2023-05-17 at 13:41 (EDT)-->
+<!--Created by Ukelele version 2.2.8 on 2023-05-17 at 13:39 (EDT)-->
+<keyboard group="126" id="-21407" name="kps uk" maxout="5">
+    <layouts>
+        <layout first="0" last="17" modifiers="commonModifiers" mapSet="ANSI"/>
+        <layout first="18" last="18" modifiers="commonModifiers" mapSet="JIS"/>
+        <layout first="21" last="23" modifiers="commonModifiers" mapSet="JIS"/>
+        <layout first="30" last="30" modifiers="commonModifiers" mapSet="JIS"/>
+        <layout first="194" last="194" modifiers="commonModifiers" mapSet="JIS"/>
+        <layout first="197" last="197" modifiers="commonModifiers" mapSet="JIS"/>
+        <layout first="200" last="201" modifiers="commonModifiers" mapSet="JIS"/>
+        <layout first="206" last="207" modifiers="commonModifiers" mapSet="JIS"/>
+    </layouts>
+    <modifierMap id="commonModifiers" defaultIndex="0">
+        <keyMapSelect mapIndex="0">
+            <modifier keys=""/>
+            <modifier keys="anyShift? caps? command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift caps?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="4">
+            <modifier keys="anyShift caps? anyOption command?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="5">
+            <modifier keys="caps anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="6">
+            <modifier keys="caps? anyOption command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="7">
+            <modifier keys="shift? caps? option? command? control"/>
+            <modifier keys="shift? rightShift caps? option? command? control"/>
+            <modifier keys="shift? caps? option? rightOption command? control"/>
+        </keyMapSelect>
+    </modifierMap>
+    <keyMapSet id="ANSI">
+        <keyMap index="0">
+            <!-- No modifiers -->
+            <key code="0" action="a"/>
+            <key code="1" action="s"/>
+            <key code="2" action="d"/>
+            <key code="3" action="f"/>
+            <!-- added -->
+            <key code="4" action="h"/>
+            <key code="5" action="g"/>
+            <key code="6" action="z"/>
+            <key code="7" action="x"/>
+            <key code="8" action="c"/>
+            <key code="9" action="v"/>
+            <key code="10" output="&#x003C;"/>
+            <key code="11" action="b"/>
+            <!-- added -->
+            <key code="12" action="q"/>
+            <key code="13" action="w"/>
+            <key code="14" action="e"/>
+            <key code="15" action="r"/>
+            <key code="16" action="y"/>
+            <key code="17" action="t"/>
+            <key code="18" action="1"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" action="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="5"/>
+            <key code="24" action="="/>
+            <key code="25" action="9"/>
+            <key code="26" action="7"/>
+            <key code="27" action="-"/>
+            <key code="28" action="8"/>
+            <key code="29" action="0"/>
+            <key code="30" action="]"/>
+            <key code="31" action="o"/>
+            <key code="32" action="u"/>
+            <key code="33" action="["/>
+            <key code="34" action="i"/>
+            <key code="35" action="p"/>
+            <!-- added -->
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="l"/>
+            <key code="38" action="j"/>
+            <key code="39" action="&#x0027;"/>
+            <key code="40" action="k"/>
+            <key code="41" action="semicolon"/>
+            <key code="42" action="\"/>
+            <key code="43" action="comma"/>
+            <key code="44" action="slash"/>
+            <key code="45" action="n"/>
+            <key code="46" action="m"/>
+            <!-- added -->
+            <key code="47" action="dot"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" action="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" action="dot 1"/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" action="*"/>
+            <!-- gap, 68 -->
+            <key code="69" action="+ 1"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" action="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73-74 -->
+            <key code="75" action="slash 1"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" action="- 1"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" action="= 1"/>
+            <key code="82" action="0 1"/>
+            <key code="83" action="1 1"/>
+            <key code="84" action="2 1"/>
+            <key code="85" action="3 1"/>
+            <key code="86" action="4 1"/>
+            <key code="87" action="5 1"/>
+            <key code="88" action="6 1"/>
+            <key code="89" action="7 1"/>
+            <!-- gap, 90 -->
+            <key code="91" action="8 1"/>
+            <key code="92" action="9 1"/>
+            <!-- gap, 93-95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+            <!-- gap, 127 -->
+        </keyMap>
+        <keyMap index="1">
+            <!-- shift -->
+            <key code="0" action="A"/>
+            <key code="1" action="S"/>
+            <key code="2" action="D"/>
+            <key code="3" action="F"/>
+            <!-- added -->
+            <key code="4" action="H"/>
+            <key code="5" action="G"/>
+            <key code="6" action="Z"/>
+            <key code="7" action="X"/>
+            <key code="8" action="C"/>
+            <key code="9" action="V"/>
+            <key code="10" output="&#x003E;"/>
+            <key code="11" action="B"/>
+            <!-- added -->
+            <key code="12" action="Q"/>
+            <key code="13" action="W"/>
+            <key code="14" action="E"/>
+            <key code="15" action="R"/>
+            <key code="16" action="Y"/>
+            <key code="17" action="T"/>
+            <key code="18" action="!"/>
+            <key code="19" action="@"/>
+            <key code="20" action="#"/>
+            <key code="21" action="$"/>
+            <key code="22" action="^"/>
+            <key code="23" action="%"/>
+            <key code="24" action="+"/>
+            <key code="25" action="("/>
+            <key code="26" action="&#x0026;"/>
+            <key code="27" action="_"/>
+            <key code="28" action="*"/>
+            <key code="29" action=")"/>
+            <key code="30" action="}"/>
+            <key code="31" action="O"/>
+            <key code="32" action="U"/>
+            <key code="33" action="{"/>
+            <key code="34" action="I"/>
+            <key code="35" action="P"/>
+            <!-- added -->
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="L"/>
+            <key code="38" action="J"/>
+            <key code="39" action="&#x0022;"/>
+            <key code="40" action="K"/>
+            <key code="41" action="colon"/>
+            <key code="42" action="|"/>
+            <key code="43" action="&#x003C;"/>
+            <key code="44" action="?"/>
+            <key code="45" action="N"/>
+            <key code="46" action="M"/>
+            <!-- added -->
+            <key code="47" action="greater than"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" action="~"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" action="dot 2"/>
+            <key code="66" output="*"/>
+            <key code="67" action="* 1"/>
+            <!-- gap, 68 -->
+            <key code="69" action="+ 2"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <!-- gap, 73-74 -->
+            <key code="75" action="slash 2"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" action="- 2"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" action="= 2"/>
+            <key code="82" action="0 2"/>
+            <key code="83" action="1 2"/>
+            <key code="84" action="2 2"/>
+            <key code="85" action="3 2"/>
+            <key code="86" action="4 2"/>
+            <key code="87" action="5 2"/>
+            <key code="88" action="6 2"/>
+            <key code="89" action="7 2"/>
+            <!-- gap, 90 -->
+            <key code="91" action="8 2"/>
+            <key code="92" action="9 2"/>
+            <!-- gap, 93-95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+            <!-- gap, 127 -->
+        </keyMap>
+        <keyMap index="2">
+            <!-- caps lock -->
+            <key code="0" action="A"/>
+            <key code="1" action="S"/>
+            <key code="2" action="D"/>
+            <key code="3" action="F"/>
+            <!-- added -->
+            <key code="4" action="H"/>
+            <key code="5" action="G"/>
+            <key code="6" action="Z"/>
+            <key code="7" action="X"/>
+            <key code="8" action="C"/>
+            <key code="9" action="V"/>
+            <key code="10" output="§"/>
+            <key code="11" action="B"/>
+            <!-- added -->
+            <key code="12" action="Q"/>
+            <key code="13" action="W"/>
+            <key code="14" action="E"/>
+            <key code="15" action="R"/>
+            <key code="16" action="Y"/>
+            <key code="17" action="T"/>
+            <key code="18" output="1"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" output="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="5"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" action="7"/>
+            <key code="27" output="-"/>
+            <key code="28" action="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="]"/>
+            <key code="31" action="O"/>
+            <key code="32" action="U"/>
+            <key code="33" output="["/>
+            <key code="34" action="I"/>
+            <key code="35" action="P"/>
+            <!-- added -->
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="L"/>
+            <key code="38" action="J"/>
+            <key code="39" action="&#x0027;"/>
+            <key code="40" action="K"/>
+            <key code="41" output=";"/>
+            <key code="42" output="\"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" action="N"/>
+            <key code="46" action="M"/>
+            <!-- added -->
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73-74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93-95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+            <!-- gap, 127 -->
+        </keyMap>
+        <keyMap index="3">
+            <!-- option -->
+            <key code="0" action="macron"/>
+            <key code="1" action="ß"/>
+            <key code="2" action="ð"/>
+            <key code="3" action=" 2"/>
+            <key code="4" action="macronbelow"/>
+            <key code="5" action=" 3"/>
+            <key code="6" action="hook"/>
+            <!-- added -->
+            <key code="7" action="dotbelow"/>
+            <key code="8" action="cedilla"/>
+            <key code="9" action="caron"/>
+            <key code="10" output="≤"/>
+            <key code="11" action="breve"/>
+            <key code="12" action="action 1"/>
+            <key code="13" action="dotabove"/>
+            <key code="14" action="acute"/>
+            <key code="15" action=" 4"/>
+            <key code="16" action="doublegrave 1"/>
+            <key code="17" action="action"/>
+            <key code="18" action="¡"/>
+            <key code="19" action="·"/>
+            <key code="20" action="£"/>
+            <key code="21" action="¢"/>
+            <key code="22" action="†"/>
+            <key code="23" action="‰"/>
+            <key code="24" action="≠"/>
+            <key code="25" action="«"/>
+            <key code="26" action="¶"/>
+            <key code="27" action="–"/>
+            <key code="28" action="×"/>
+            <key code="29" action="»"/>
+            <key code="30" action="‘"/>
+            <key code="31" action="ø"/>
+            <key code="32" action="diaeresis"/>
+            <key code="33" action="“"/>
+            <key code="34" action="horn"/>
+            <key code="35" action="commabelow"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="latin"/>
+            <key code="38" action="doubleacute"/>
+            <key code="39" action="æ"/>
+            <key code="40" action="ringabove"/>
+            <key code="41" action="…"/>
+            <key code="42" action=" 5"/>
+            <key code="43" action="≤"/>
+            <key code="44" action="÷"/>
+            <key code="45" action="tilde"/>
+            <key code="46" action="ogonek"/>
+            <key code="47" action="≥"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" action="‘ 1"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" action="dot 3"/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73-74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" action="1 3"/>
+            <key code="84" action="2 3"/>
+            <key code="85" action="3 3"/>
+            <key code="86" action="4 3"/>
+            <key code="87" action="5 3"/>
+            <key code="88" action="6 3"/>
+            <key code="89" action="7 3"/>
+            <!-- gap, 90 -->
+            <key code="91" action="8 3"/>
+            <key code="92" action="9 3"/>
+            <!-- gap, 93-95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+            <!-- gap, 127 -->
+        </keyMap>
+        <keyMap index="4">
+            <!-- option shift -->
+            <key code="0" action="∀"/>
+            <key code="1" action="∑"/>
+            <!-- added -->
+            <key code="2" action="∂"/>
+            <key code="3" action="↦"/>
+            <!-- added -->
+            <key code="4" output="←"/>
+            <key code="5" action="⇒"/>
+            <!-- added -->
+            <key code="6" action="∞"/>
+            <!-- added -->
+            <key code="7" action="∃"/>
+            <key code="8" action="©"/>
+            <key code="9" action="√"/>
+            <key code="10" output="±"/>
+            <key code="11" action="√ 1"/>
+            <key code="12" action="⊂"/>
+            <key code="13" action="⊃"/>
+            <key code="14" action="∈"/>
+            <key code="15" action="®"/>
+            <key code="16" output="¥"/>
+            <!-- added -->
+            <key code="17" action="™"/>
+            <key code="18" action="¬"/>
+            <!-- corrected -->
+            <key code="19" action="•"/>
+            <key code="20" action="Ω"/>
+            <key code="21" action="€"/>
+            <key code="22" action="‡"/>
+            <key code="23" action="‱"/>
+            <key code="24" action="±"/>
+            <key code="25" action="‹"/>
+            <key code="26" action="§"/>
+            <key code="27" action="—"/>
+            <key code="28" action="°"/>
+            <key code="29" action="›"/>
+            <key code="30" action="’"/>
+            <key code="31" action="Ø"/>
+            <key code="32" output="∪"/>
+            <key code="33" output="«"/>
+            <key code="34" action="∩"/>
+            <key code="35" action="π"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="→"/>
+            <key code="38" output="↓"/>
+            <key code="39" action="Æ"/>
+            <key code="40" action="↑"/>
+            <key code="41" action="∴"/>
+            <!-- added -->
+            <key code="42" action="∖"/>
+            <key code="43" action="≪"/>
+            <key code="44" output="¿"/>
+            <key code="45" action=""/>
+            <!-- corrected -->
+            <key code="46" action=" 1"/>
+            <!-- corrected -->
+            <key code="47" action="≫"/>
+            <!-- added -->
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="  1"/>
+            <key code="50" action="“ 1"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="+"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="="/>
+            <!-- gap, 73-74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93-95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+            <!-- gap, 127 -->
+        </keyMap>
+        <keyMap index="5">
+            <!-- option caps lock -->
+            <key code="0" action="macron"/>
+            <!-- corrected -->
+            <key code="1" output="SS"/>
+            <key code="2" output="Ð"/>
+            <key code="3" output="ƒ"/>
+            <key code="4" action="macronbelow"/>
+            <key code="5" output="©"/>
+            <key code="6" action="hook"/>
+            <!-- added -->
+            <key code="7" action="dotbelow"/>
+            <!-- added -->
+            <key code="8" action="cedilla"/>
+            <!-- corrected -->
+            <key code="9" action="caron"/>
+            <!-- corrected -->
+            <key code="10" output="§"/>
+            <key code="11" action="breve"/>
+            <!-- corrected -->
+            <key code="12" output="Œ"/>
+            <!-- corrected -->
+            <key code="13" action="dotabove"/>
+            <!-- corrected -->
+            <key code="14" action="acute"/>
+            <!-- corrected -->
+            <key code="15" output="®"/>
+            <key code="16" output="¥"/>
+            <key code="17" output="Þ"/>
+            <key code="18" output="¡"/>
+            <key code="19" output="™"/>
+            <key code="20" output="£"/>
+            <key code="21" output="¢"/>
+            <key code="22" action="circumflex"/>
+            <!-- corrected -->
+            <key code="23" output="§"/>
+            <key code="24" output="≠"/>
+            <key code="25" output="ª"/>
+            <key code="26" output="¶"/>
+            <key code="27" output="–"/>
+            <key code="28" output="•"/>
+            <key code="29" output="º"/>
+            <key code="30" action="‘"/>
+            <key code="31" action="Ø"/>
+            <key code="32" action="diaeresis"/>
+            <!-- corrected -->
+            <key code="33" action="“"/>
+            <key code="34" action="horn"/>
+            <key code="35" action="commabelow"/>
+            <!-- corrected -->
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="latin"/>
+            <key code="38" action="doubleacute"/>
+            <!-- corrected -->
+            <key code="39" action="Æ"/>
+            <key code="40" action="ringabove"/>
+            <key code="41" output="…"/>
+            <key code="42" output="«"/>
+            <key code="43" output="≤"/>
+            <key code="44" output="÷"/>
+            <key code="45" action="tilde"/>
+            <!-- corrected -->
+            <key code="46" action="ogonek"/>
+            <!-- corrected -->
+            <key code="47" output="≥"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" action="grave"/>
+            <!-- corrected -->
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73-74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93-95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+            <!-- gap, 127 -->
+        </keyMap>
+        <keyMap index="6">
+            <!-- option command -->
+            <key code="0" output="¯"/>
+            <key code="1" output="ß"/>
+            <key code="2" output="ð"/>
+            <key code="3" output="ƒ"/>
+            <key code="4" output="ˍ"/>
+            <key code="5" output="©"/>
+            <key code="6" action="’"/>
+            <key code="7" output="."/>
+            <key code="8" output="¸"/>
+            <key code="9" output="ˇ"/>
+            <key code="10" output="§"/>
+            <key code="11" output="˘"/>
+            <key code="12" output="œ"/>
+            <key code="13" output="˙"/>
+            <key code="14" output="´"/>
+            <key code="15" output="®"/>
+            <key code="16" output="¥"/>
+            <key code="17" output="þ"/>
+            <key code="18" output="¡"/>
+            <key code="19" output="™"/>
+            <key code="20" output="£"/>
+            <key code="21" output="¢"/>
+            <key code="22" output="ˆ"/>
+            <key code="23" output="§"/>
+            <key code="24" output="≠"/>
+            <key code="25" output="ª"/>
+            <key code="26" output="¶"/>
+            <key code="27" output="–"/>
+            <key code="28" output="•"/>
+            <key code="29" output="º"/>
+            <key code="30" action="‘"/>
+            <key code="31" action="ø"/>
+            <key code="32" output="¨"/>
+            <key code="33" action="“"/>
+            <key code="34" action="’"/>
+            <key code="35" output=","/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="-"/>
+            <key code="38" output="˝"/>
+            <key code="39" action="æ"/>
+            <key code="40" output="˚"/>
+            <key code="41" output="…"/>
+            <key code="42" output="«"/>
+            <key code="43" output="≤"/>
+            <key code="44" output="÷"/>
+            <key code="45" output="˜"/>
+            <key code="46" output="˛"/>
+            <key code="47" output="≥"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" output=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73-74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93-95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+            <!-- gap, 127 -->
+        </keyMap>
+        <keyMap index="7">
+            <!-- control -->
+            <key code="0" output="&#x0001;"/>
+            <key code="1" output="&#x0013;"/>
+            <key code="2" output="&#x0004;"/>
+            <key code="3" output="&#x0006;"/>
+            <key code="4" output="&#x0008;"/>
+            <key code="5" output="&#x0007;"/>
+            <key code="6" output="&#x001A;"/>
+            <key code="7" output="&#x0018;"/>
+            <key code="8" output="&#x0003;"/>
+            <key code="9" output="&#x0016;"/>
+            <key code="10" output="0"/>
+            <key code="11" output="&#x0002;"/>
+            <key code="12" output="&#x0011;"/>
+            <key code="13" output="&#x0017;"/>
+            <key code="14" output="&#x0005;"/>
+            <key code="15" output="&#x0012;"/>
+            <key code="16" output="&#x0019;"/>
+            <key code="17" output="&#x0014;"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" output="4"/>
+            <key code="22" output="6"/>
+            <key code="23" output="5"/>
+            <key code="24" output="="/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" output="&#x001F;"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
+            <key code="30" output="&#x001D;"/>
+            <key code="31" output="&#x000F;"/>
+            <key code="32" output="&#x0015;"/>
+            <key code="33" output="&#x001B;"/>
+            <key code="34" output="&#x0009;"/>
+            <key code="35" output="&#x0010;"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" output="&#x000C;"/>
+            <key code="38" output="&#x000A;"/>
+            <key code="39" output="&#x0027;"/>
+            <key code="40" output="&#x000B;"/>
+            <key code="41" output=";"/>
+            <key code="42" output="&#x001C;"/>
+            <key code="43" output=","/>
+            <key code="44" output="/"/>
+            <key code="45" output="&#x000E;"/>
+            <key code="46" output="&#x000D;"/>
+            <key code="47" output="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action=" "/>
+            <key code="50" output="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54 through 64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <!-- gap, 73-74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93-95 -->
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+            <!-- gap, 127 -->
+        </keyMap>
+    </keyMapSet>
+    <keyMapSet id="JIS">
+        <keyMap index="0" baseMapSet="ANSI" baseIndex="0">
+            <!-- No modifiers -->
+            <key code="24" action="^"/>
+            <!-- changed -->
+            <key code="30" output="["/>
+            <!-- changed -->
+            <key code="33" action="@"/>
+            <!-- changed -->
+            <key code="39" output=":"/>
+            <!-- changed -->
+            <key code="42" output="]"/>
+            <!-- changed -->
+            <key code="93" output="¥"/>
+            <!-- changed -->
+            <key code="94" output="_"/>
+            <!-- changed -->
+            <key code="95" output=","/>
+            <!-- changed -->
+            <key code="102" action=" "/>
+            <!-- changed -->
+            <key code="104" action=" "/>
+            <!-- changed -->
+        </keyMap>
+        <keyMap index="1" baseMapSet="ANSI" baseIndex="1">
+            <!-- shift -->
+            <key code="19" action="&#x0022;"/>
+            <!-- changed -->
+            <key code="22" action="&#x0026;"/>
+            <!-- changed -->
+            <key code="24" output="~"/>
+            <!-- changed -->
+            <key code="25" output=")"/>
+            <!-- changed -->
+            <key code="26" action="&#x0027;"/>
+            <!-- changed -->
+            <key code="27" output="="/>
+            <!-- changed -->
+            <key code="28" output="("/>
+            <!-- changed -->
+            <key code="29" output="0"/>
+            <!-- changed -->
+            <key code="30" output="{"/>
+            <!-- changed -->
+            <key code="33" output="`"/>
+            <!-- changed -->
+            <key code="39" action="*"/>
+            <!-- changed -->
+            <key code="41" output="+"/>
+            <!-- changed -->
+            <key code="42" output="}"/>
+            <!-- changed -->
+            <key code="93" output="|"/>
+            <!-- changed -->
+            <key code="94" output="_"/>
+            <!-- changed -->
+            <key code="95" output=","/>
+            <!-- changed -->
+            <key code="102" action=" "/>
+            <!-- changed -->
+            <key code="104" action=" "/>
+            <!-- changed -->
+        </keyMap>
+        <keyMap index="2" baseMapSet="ANSI" baseIndex="2">
+            <!-- caps lock -->
+            <key code="24" action="^"/>
+            <!-- changed -->
+            <key code="30" output="["/>
+            <!-- changed -->
+            <key code="33" action="@"/>
+            <!-- changed -->
+            <key code="39" output=":"/>
+            <!-- changed -->
+            <key code="42" output="]"/>
+            <!-- changed -->
+            <key code="93" output="¥"/>
+            <!-- changed -->
+            <key code="94" output="_"/>
+            <!-- changed -->
+            <key code="95" output=","/>
+            <!-- changed -->
+            <key code="102" action=" "/>
+            <!-- changed -->
+            <key code="104" action=" "/>
+            <!-- changed -->
+        </keyMap>
+        <keyMap index="3" baseMapSet="ANSI" baseIndex="3">
+            <!-- option -->
+            <key code="93" output="\"/>
+            <!-- changed -->
+            <key code="94" action="grave"/>
+            <!-- changed -->
+            <key code="95" output=","/>
+            <!-- changed -->
+            <key code="102" action=" "/>
+            <!-- changed -->
+            <key code="104" action=" "/>
+            <!-- changed -->
+        </keyMap>
+        <keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+            <!-- option shift -->
+            <key code="93" output="\"/>
+            <!-- changed -->
+            <key code="94" output="̀"/>
+            <!-- changed -->
+            <key code="95" output=","/>
+            <!-- changed -->
+            <key code="102" action=" "/>
+            <!-- changed -->
+            <key code="104" action=" "/>
+            <!-- changed -->
+        </keyMap>
+        <keyMap index="5" baseMapSet="ANSI" baseIndex="5">
+            <!-- option caps lock -->
+            <key code="93" output="\"/>
+            <!-- changed -->
+            <key code="94" output="`"/>
+            <!-- changed -->
+            <key code="95" output=","/>
+            <!-- changed -->
+            <key code="102" action=" "/>
+            <!-- changed -->
+            <key code="104" action=" "/>
+            <!-- changed -->
+        </keyMap>
+        <keyMap index="6" baseMapSet="ANSI" baseIndex="6">
+            <!-- option command -->
+            <key code="93" output="\"/>
+            <!-- changed -->
+            <key code="94" output="_"/>
+            <!-- changed -->
+            <key code="95" output=","/>
+            <!-- changed -->
+            <key code="102" action=" "/>
+            <!-- changed -->
+            <key code="104" action=" "/>
+            <!-- changed -->
+        </keyMap>
+        <keyMap index="7" baseMapSet="ANSI" baseIndex="7">
+            <!-- control -->
+            <key code="93" output="|"/>
+            <!-- changed -->
+            <key code="94" output="_"/>
+            <!-- changed -->
+            <key code="95" output=","/>
+            <!-- changed -->
+            <key code="102" action=" "/>
+            <!-- changed -->
+            <key code="104" action=" "/>
+            <!-- changed -->
+        </keyMap>
+    </keyMapSet>
+    <actions>
+        <!-- actions for initiating dead key states -->
+        <!-- actions for completing dead key states -->
+        <action id="">
+            <when state="none" output="♮"/>
+            <when state="circled" output="⃠"/>
+            <when state="close" output="﹚"/>
+            <when state="combining" output="̾"/>
+            <when state="open" output="﹙"/>
+            <when state="subscript" output="ᷡ"/>
+            <when state="superscript" output="ᷡ"/>
+        </action>
+        <action id=" ">
+            <when state="none" output=" "/>
+            <when state="acute" output="´"/>
+            <when state="breve" output="˘"/>
+            <when state="caron" output="ˇ"/>
+            <when state="cedilla" output="¸"/>
+            <when state="circled" output="◯"/>
+            <when state="circumflex" output="ˆ"/>
+            <when state="circumflexbelow" output="‸"/>
+            <!-- added -->
+            <when state="commabelow" output=","/>
+            <when state="ctrl" output="␠"/>
+            <when state="diaeresis" output="¨"/>
+            <when state="dotabove" output="˙"/>
+            <when state="dotbelow" output="."/>
+            <!-- added -->
+            <when state="doubleacute" output="˝"/>
+            <when state="doublegrave" output=" ̏"/>
+            <!-- added -->
+            <when state="fullwidth" output=" "/>
+            <when state="grave" output="`"/>
+            <when state="hook" output="ˀ"/>
+            <!-- added -->
+            <when state="hooked" output="ʔ"/>
+            <!-- added -->
+            <when state="horn" output="ʼ"/>
+            <!-- added -->
+            <when state="invertedbreve" output=" ̑"/>
+            <!-- added -->
+            <when state="keyboard" output="␣"/>
+            <when state="macron" output="¯"/>
+            <when state="macronbelow" output="ˍ"/>
+            <!-- added -->
+            <when state="ogonek" output="˛"/>
+            <when state="ringabove" output="˚"/>
+            <when state="specials" output="№"/>
+            <!-- added -->
+            <when state="stroke" output="-"/>
+            <!-- added -->
+            <when state="tilde" output="˜"/>
+            <when state="tildebelow" output=" ̰"/>
+            <!-- added -->
+        </action>
+        <action id=" 1">
+            <when state="none" output="µ"/>
+            <when state="close" output="﹜"/>
+            <when state="combining" output="͋"/>
+            <when state="hebrew" output="ﬦ"/>
+            <when state="open" output="﹛"/>
+            <when state="subscript" output="ᷟ"/>
+            <when state="superscript" output="ᷟ"/>
+        </action>
+        <action id=" 2">
+            <when state="none" next="fraction"/>
+            <when state="greek" output="ϕ"/>
+            <when state="hebrew" output="ץ"/>
+            <when state="latin" next="tildebelow"/>
+        </action>
+        <action id=" 3">
+            <when state="none" next="greek"/>
+            <when state="greek" output="ϝ"/>
+            <when state="hebrew" output="ℷ"/>
+            <when state="latin" next="circumflexbelow"/>
+            <when state="superscript" output="ᷚ"/>
+        </action>
+        <action id=" 4">
+            <when state="none" output="↵"/>
+            <when state="circled" output="®"/>
+            <when state="math1" output="∜"/>
+            <when state="subscript" output="᷊"/>
+            <when state="superscript" output="ͬ"/>
+        </action>
+        <action id=" 5">
+            <when state="none" output="⌫"/>
+            <when state="ctrl" output="⑊"/>
+        </action>
+        <action id="!">
+            <when state="none" output="!"/>
+            <when state="circled" output="⑪"/>
+            <when state="combining" output="͠"/>
+            <when state="fraction" next="fraction11"/>
+            <when state="fullwidth" output="！"/>
+            <when state="superscript" output="ᵅ"/>
+        </action>
+        <action id="#">
+            <when state="none" output="£"/>
+            <when state="circled" output="⑬"/>
+            <when state="fraction" next="fraction13"/>
+            <when state="fullwidth" output="＃"/>
+            <when state="specials" output="Ɛ"/>
+            <when state="subscript" output="ᵧ"/>
+            <when state="superscript" output="ᵞ"/>
+        </action>
+        <action id="$">
+            <when state="none" output="$"/>
+            <when state="circled" output="⑭"/>
+            <when state="fraction" next="fraction14"/>
+            <when state="fullwidth" output="＄"/>
+            <when state="subscript" output="ₔ"/>
+            <when state="superscript" output="ᵟ"/>
+        </action>
+        <action id="%">
+            <when state="none" output="%"/>
+            <when state="circled" output="⑮"/>
+            <when state="fraction" next="fraction15"/>
+            <when state="fullwidth" output="％"/>
+            <when state="specials" output="Ƽ"/>
+            <when state="superscript" output="ᵋ"/>
+        </action>
+        <action id="&#x001B;">
+            <when state="none" output="&#x001B;"/>
+            <when state="fullwidth" output=""/>
+        </action>
+        <action id="&#x003C;">
+            <when state="none" output="&#x003C;"/>
+            <when state="close" output="⟫"/>
+            <when state="combining" output="̔"/>
+            <when state="fullwidth" output="＜"/>
+            <when state="keyboard" output="⌦"/>
+            <when state="math1" output="≪"/>
+            <when state="open" output="⟪"/>
+        </action>
+        <action id="&#x0022;">
+            <when state="none" output="&#x0022;"/>
+            <when state="combining" output="̎"/>
+            <when state="fullwidth" output="＂"/>
+            <when state="math1" output="″"/>
+            <when state="open" output="“"/>
+            <when state="specials" output="ʺ"/>
+        </action>
+        <action id="&#x0026;">
+            <when state="none" output="&#x0026;"/>
+            <when state="circled" output="⑰"/>
+            <when state="fullwidth" output="＆"/>
+            <when state="superscript" output="ᶥ"/>
+        </action>
+        <action id="&#x0027;">
+            <when state="none" output="&#x0027;"/>
+            <when state="combining" output="̍"/>
+            <when state="math1" output="′"/>
+            <when state="open" output="‘"/>
+            <when state="specials" output="ʹ"/>
+        </action>
+        <action id="(">
+            <when state="none" output="("/>
+            <when state="circled" output="⑲"/>
+            <when state="fullwidth" output="（"/>
+            <when state="subscript" output="₍"/>
+            <when state="superscript" output="⁽"/>
+        </action>
+        <action id=")">
+            <when state="none" output=")"/>
+            <when state="circled" output="⑩"/>
+            <when state="fullwidth" output="）"/>
+            <when state="subscript" output="₎"/>
+            <when state="superscript" output="⁾"/>
+        </action>
+        <action id="*">
+            <when state="none" output="*"/>
+            <when state="circled" output="⑱"/>
+            <when state="combining" output="͚"/>
+            <when state="fullwidth" output="＊"/>
+            <when state="math1" output="∘"/>
+            <when state="specials" output="Ȣ"/>
+            <when state="superscript" output="ᶲ"/>
+        </action>
+        <action id="* 1">
+            <when state="none" output="*"/>
+            <when state="fullwidth" output="＊"/>
+        </action>
+        <action id="+">
+            <when state="none" output="+"/>
+            <when state="combining" output="̟"/>
+            <when state="fullwidth" output="＋"/>
+            <when state="hebrew" output="﬩"/>
+            <when state="math1" output="≃"/>
+            <when state="subscript" output="₊"/>
+            <when state="superscript" output="⁺"/>
+        </action>
+        <action id="+ 1">
+            <when state="none" output="+"/>
+            <when state="fullwidth" output="＋"/>
+        </action>
+        <action id="+ 2">
+            <when state="none" output="+"/>
+            <when state="fullwidth" output="＋"/>
+        </action>
+        <action id="-">
+            <when state="none" output="-"/>
+            <when state="close" output="⦊"/>
+            <when state="combining" output="̠"/>
+            <when state="ctrl" output="␟"/>
+            <when state="fraction1" output="¹⁄₁₆"/>
+            <when state="fraction10" output="¹⁰⁄₁₆"/>
+            <when state="fraction11" output="¹¹⁄₁₆"/>
+            <when state="fraction12" output="¹¹⁄₁₆"/>
+            <when state="fraction13" output="¹¹⁄₁₆"/>
+            <when state="fraction14" output="¹¹⁄₁₆"/>
+            <when state="fraction15" output="¹¹⁄₁₆"/>
+            <when state="fraction2" output="²⁄₁₆"/>
+            <when state="fraction3" output="³⁄₁₆"/>
+            <when state="fraction4" output="⁴⁄₁₆"/>
+            <when state="fraction5" output="⁵⁄₁₆"/>
+            <when state="fraction6" output="⁶⁄₁₆"/>
+            <when state="fraction7" output="⁷⁄₁₆"/>
+            <when state="fraction8" output="⁸⁄₁₆"/>
+            <when state="fraction9" output="⁹⁄₁₆"/>
+            <when state="fullwidth" output="－"/>
+            <when state="math1" output="−"/>
+            <when state="open" output="⦉"/>
+            <when state="subscript" output="₋"/>
+            <when state="superscript" output="⁻"/>
+        </action>
+        <action id="- 1">
+            <when state="none" output="-"/>
+            <when state="fullwidth" output="－"/>
+        </action>
+        <action id="- 2">
+            <when state="none" output="-"/>
+            <when state="fullwidth" output="－"/>
+        </action>
+        <action id="0">
+            <when state="none" output="0"/>
+            <when state="circled" output="⓪"/>
+            <when state="close" output="⦈"/>
+            <when state="combining" output="̳"/>
+            <when state="fraction" next="fraction10"/>
+            <when state="fraction1" output="¹⁄₁₀"/>
+            <when state="fraction10" output="¹⁰⁄₁₀"/>
+            <when state="fraction11" output="¹¹⁄₁₀"/>
+            <when state="fraction12" output="¹²⁄₁₀"/>
+            <when state="fraction13" output="¹³⁄₁₀"/>
+            <when state="fraction14" output="¹⁴⁄₁₀"/>
+            <when state="fraction15" output="¹⁵⁄₁₀"/>
+            <when state="fraction2" output="²⁄₁₀"/>
+            <when state="fraction3" output="³⁄₁₀"/>
+            <when state="fraction4" output="⁴⁄₁₀"/>
+            <when state="fraction5" output="⁵⁄₁₀"/>
+            <when state="fraction6" output="⁶⁄₁₀"/>
+            <when state="fraction7" output="⁷⁄₁₀"/>
+            <when state="fraction8" output="⁸⁄₁₀"/>
+            <when state="fraction9" output="⁹⁄₁₀"/>
+            <when state="fullwidth" output="０"/>
+            <when state="open" output="⦇"/>
+            <when state="subscript" output="₀"/>
+            <when state="superscript" output="⁰"/>
+        </action>
+        <action id="0 1">
+            <when state="none" output="0"/>
+            <when state="fullwidth" output="０"/>
+        </action>
+        <action id="0 2">
+            <when state="none" output="0"/>
+            <when state="fullwidth" output="０"/>
+        </action>
+        <action id="1">
+            <when state="none" output="1"/>
+            <when state="acute" output="′"/>
+            <when state="circled" output="①"/>
+            <when state="close" output="′"/>
+            <when state="combining" output="͜"/>
+            <when state="dotbelow" output="․"/>
+            <when state="fraction" next="fraction1"/>
+            <when state="fraction1" output="¹⁄₁"/>
+            <when state="fraction10" output="¹⁰⁄₁"/>
+            <when state="fraction11" output="¹¹⁄₁"/>
+            <when state="fraction12" output="¹²⁄₁"/>
+            <when state="fraction13" output="¹³⁄₁"/>
+            <when state="fraction14" output="¹⁴⁄₁"/>
+            <when state="fraction15" output="¹⁵⁄₁"/>
+            <when state="fraction2" output="²⁄₁"/>
+            <when state="fraction3" output="³⁄₁"/>
+            <when state="fraction4" output="⁴⁄₁"/>
+            <when state="fraction5" output="⁵⁄₁"/>
+            <when state="fraction6" output="⁶⁄₁"/>
+            <when state="fraction7" output="⁷⁄₁"/>
+            <when state="fraction8" output="⁸⁄₁"/>
+            <when state="fraction9" output="⁹⁄₁"/>
+            <when state="fullwidth" output="１"/>
+            <when state="grave" output="‵"/>
+            <when state="math1" output="¬"/>
+            <when state="open" output="‵"/>
+            <when state="subscript" output="₁"/>
+            <when state="superscript" output="¹"/>
+        </action>
+        <action id="1 1">
+            <when state="none" output="1"/>
+            <when state="circled" output="➀"/>
+            <when state="fullwidth" output="１"/>
+        </action>
+        <action id="1 2">
+            <when state="none" output="1"/>
+            <when state="circled" output="⓵"/>
+            <when state="fullwidth" output="１"/>
+        </action>
+        <action id="1 3">
+            <when state="none" output="1"/>
+            <when state="circled" output="➊"/>
+        </action>
+        <action id="2">
+            <when state="none" output="2"/>
+            <when state="acute" output="″"/>
+            <when state="circled" output="②"/>
+            <when state="close" output="″"/>
+            <when state="combining" output="͟"/>
+            <when state="ctrl" output="␀"/>
+            <when state="dotbelow" output="‥"/>
+            <when state="fraction" next="fraction2"/>
+            <when state="fraction1" output="½"/>
+            <when state="fraction10" output="¹⁰⁄₂"/>
+            <when state="fraction11" output="¹¹⁄₂"/>
+            <when state="fraction12" output="¹²⁄₂"/>
+            <when state="fraction13" output="¹³⁄₂"/>
+            <when state="fraction14" output="¹⁴⁄₂"/>
+            <when state="fraction15" output="¹⁵⁄₂"/>
+            <when state="fraction2" output="²⁄₂"/>
+            <when state="fraction3" output="³⁄₂"/>
+            <when state="fraction4" output="⁴⁄₂"/>
+            <when state="fraction5" output="⁵⁄₂"/>
+            <when state="fraction6" output="⁶⁄₂"/>
+            <when state="fraction7" output="⁷⁄₂"/>
+            <when state="fraction8" output="⁸⁄₂"/>
+            <when state="fraction9" output="⁹⁄₂"/>
+            <when state="fullwidth" output="２"/>
+            <when state="grave" output="‶"/>
+            <when state="math1" output="²"/>
+            <when state="open" output="‶"/>
+            <when state="specials" output="ƨ"/>
+            <when state="subscript" output="₂"/>
+            <when state="superscript" output="²"/>
+        </action>
+        <action id="2 1">
+            <when state="none" output="2"/>
+            <when state="circled" output="➁"/>
+            <when state="fullwidth" output="２"/>
+        </action>
+        <action id="2 2">
+            <when state="none" output="2"/>
+            <when state="circled" output="⓶"/>
+            <when state="fullwidth" output="２"/>
+        </action>
+        <action id="2 3">
+            <when state="none" output="2"/>
+            <when state="circled" output="➋"/>
+        </action>
+        <action id="3">
+            <when state="none" output="3"/>
+            <when state="acute" output="‴"/>
+            <when state="circled" output="③"/>
+            <when state="close" output="‴"/>
+            <when state="dotbelow" output="…"/>
+            <when state="fraction" next="fraction3"/>
+            <when state="fraction1" output="⅓"/>
+            <when state="fraction10" output="¹⁰⁄₃"/>
+            <when state="fraction11" output="¹¹⁄₃"/>
+            <when state="fraction12" output="¹²⁄₃"/>
+            <when state="fraction13" output="¹³⁄₃"/>
+            <when state="fraction14" output="¹⁴⁄₃"/>
+            <when state="fraction15" output="¹⁵⁄₃"/>
+            <when state="fraction2" output="⅔"/>
+            <when state="fraction3" output="³⁄₃"/>
+            <when state="fraction4" output="⁴⁄₃"/>
+            <when state="fraction5" output="⁵⁄₃"/>
+            <when state="fraction6" output="⁶⁄₃"/>
+            <when state="fraction7" output="⁷⁄₃"/>
+            <when state="fraction8" output="⁸⁄₃"/>
+            <when state="fraction9" output="⁹⁄₃"/>
+            <when state="fullwidth" output="３"/>
+            <when state="grave" output="‷"/>
+            <when state="math1" output="³"/>
+            <when state="open" output="‷"/>
+            <when state="specials" output="ɛ"/>
+            <when state="subscript" output="₃"/>
+            <when state="superscript" output="³"/>
+        </action>
+        <action id="3 1">
+            <when state="none" output="3"/>
+            <when state="circled" output="➂"/>
+            <when state="fullwidth" output="３"/>
+        </action>
+        <action id="3 2">
+            <when state="none" output="3"/>
+            <when state="circled" output="⓷"/>
+            <when state="fullwidth" output="３"/>
+        </action>
+        <action id="3 3">
+            <when state="none" output="3"/>
+            <when state="circled" output="➌"/>
+        </action>
+        <action id="4">
+            <when state="none" output="4"/>
+            <when state="circled" output="④"/>
+            <when state="close" output="⁗"/>
+            <when state="fraction" next="fraction4"/>
+            <when state="fraction1" output="¼"/>
+            <when state="fraction10" output="¹⁰⁄₄"/>
+            <when state="fraction11" output="¹¹⁄₄"/>
+            <when state="fraction12" output="¹²⁄₄"/>
+            <when state="fraction13" output="¹³⁄₄"/>
+            <when state="fraction14" output="¹⁴⁄₄"/>
+            <when state="fraction15" output="¹⁵⁄₄"/>
+            <when state="fraction2" output="²⁄₄"/>
+            <when state="fraction3" output="¾"/>
+            <when state="fraction4" output="⁴⁄₄"/>
+            <when state="fraction5" output="⁵⁄₄"/>
+            <when state="fraction6" output="⁶⁄₄"/>
+            <when state="fraction7" output="⁷⁄₄"/>
+            <when state="fraction8" output="⁸⁄₄"/>
+            <when state="fraction9" output="⁹⁄₄"/>
+            <when state="fullwidth" output="４"/>
+            <when state="subscript" output="₄"/>
+            <when state="superscript" output="⁴"/>
+        </action>
+        <action id="4 1">
+            <when state="none" output="4"/>
+            <when state="circled" output="➃"/>
+            <when state="fullwidth" output="４"/>
+        </action>
+        <action id="4 2">
+            <when state="none" output="4"/>
+            <when state="circled" output="⓸"/>
+            <when state="fullwidth" output="４"/>
+        </action>
+        <action id="4 3">
+            <when state="none" output="4"/>
+            <when state="circled" output="➍"/>
+        </action>
+        <action id="5">
+            <when state="none" output="5"/>
+            <when state="circled" output="⑤"/>
+            <when state="fraction" next="fraction5"/>
+            <when state="fraction1" output="⅕"/>
+            <when state="fraction10" output="¹⁰⁄₅"/>
+            <when state="fraction11" output="¹¹⁄₅"/>
+            <when state="fraction12" output="¹²⁄₅"/>
+            <when state="fraction13" output="¹³⁄₅"/>
+            <when state="fraction14" output="¹⁴⁄₅"/>
+            <when state="fraction15" output="¹⁵⁄₅"/>
+            <when state="fraction2" output="⅖"/>
+            <when state="fraction3" output="⅗"/>
+            <when state="fraction4" output="⅘"/>
+            <when state="fraction5" output="⁵⁄₅"/>
+            <when state="fraction6" output="⁶⁄₅"/>
+            <when state="fraction7" output="⁷⁄₅"/>
+            <when state="fraction8" output="⁸⁄₅"/>
+            <when state="fraction9" output="⁹⁄₅"/>
+            <when state="fullwidth" output="５"/>
+            <when state="specials" output="ƽ"/>
+            <when state="subscript" output="₅"/>
+            <when state="superscript" output="⁵"/>
+        </action>
+        <action id="5 1">
+            <when state="none" output="5"/>
+            <when state="circled" output="➄"/>
+            <when state="fullwidth" output="５"/>
+        </action>
+        <action id="5 2">
+            <when state="none" output="5"/>
+            <when state="circled" output="⓹"/>
+            <when state="fullwidth" output="５"/>
+        </action>
+        <action id="5 3">
+            <when state="none" output="5"/>
+            <when state="circled" output="➎"/>
+        </action>
+        <action id="6">
+            <when state="none" output="6"/>
+            <when state="circled" output="⑥"/>
+            <when state="close" output="⁆"/>
+            <when state="combining" output="̂"/>
+            <when state="ctrl" output="␞"/>
+            <when state="fraction" next="fraction6"/>
+            <when state="fraction1" output="⅙"/>
+            <when state="fraction10" output="¹⁰⁄₆"/>
+            <when state="fraction11" output="¹¹⁄₆"/>
+            <when state="fraction12" output="¹²⁄₆"/>
+            <when state="fraction13" output="¹³⁄₆"/>
+            <when state="fraction14" output="¹⁴⁄₆"/>
+            <when state="fraction15" output="¹⁵⁄₆"/>
+            <when state="fraction2" output="²⁄₆"/>
+            <when state="fraction3" output="³⁄₆"/>
+            <when state="fraction4" output="⁴⁄₆"/>
+            <when state="fraction5" output="⅚"/>
+            <when state="fraction6" output="⁶⁄₆"/>
+            <when state="fraction7" output="⁷⁄₆"/>
+            <when state="fraction8" output="⁸⁄₆"/>
+            <when state="fraction9" output="⁹⁄₆"/>
+            <when state="fullwidth" output="６"/>
+            <when state="latin" next="circumflex"/>
+            <when state="math1" output="∧"/>
+            <when state="open" output="⁅"/>
+            <when state="specials" output="ƅ"/>
+            <when state="subscript" output="₆"/>
+            <when state="superscript" output="⁶"/>
+        </action>
+        <action id="6 1">
+            <when state="none" output="6"/>
+            <when state="circled" output="➅"/>
+            <when state="fullwidth" output="６"/>
+        </action>
+        <action id="6 2">
+            <when state="none" output="6"/>
+            <when state="circled" output="⓺"/>
+            <when state="fullwidth" output="６"/>
+        </action>
+        <action id="6 3">
+            <when state="none" output="6"/>
+            <when state="circled" output="➏"/>
+        </action>
+        <action id="7">
+            <when state="none" output="7"/>
+            <when state="circled" output="⑦"/>
+            <when state="close" output="⸧"/>
+            <when state="fraction" next="fraction7"/>
+            <when state="fraction1" output="¹⁄₇"/>
+            <when state="fraction10" output="¹⁰⁄₇"/>
+            <when state="fraction11" output="¹¹⁄₇"/>
+            <when state="fraction12" output="¹²⁄₇"/>
+            <when state="fraction13" output="¹³⁄₇"/>
+            <when state="fraction14" output="¹⁴⁄₇"/>
+            <when state="fraction15" output="¹⁵⁄₇"/>
+            <when state="fraction2" output="²⁄₇"/>
+            <when state="fraction3" output="³⁄₇"/>
+            <when state="fraction4" output="⁴⁄₇"/>
+            <when state="fraction5" output="⁵⁄₇"/>
+            <when state="fraction6" output="⁶⁄₇"/>
+            <when state="fraction7" output="⁷⁄₇"/>
+            <when state="fraction8" output="⁸⁄₇"/>
+            <when state="fraction9" output="⁹⁄₇"/>
+            <when state="fullwidth" output="７"/>
+            <when state="open" output="⸦"/>
+            <when state="specials" output="⁊"/>
+            <when state="subscript" output="₇"/>
+            <when state="superscript" output="⁷"/>
+        </action>
+        <action id="7 1">
+            <when state="none" output="7"/>
+            <when state="circled" output="➆"/>
+            <when state="fullwidth" output="７"/>
+        </action>
+        <action id="7 2">
+            <when state="none" output="7"/>
+            <when state="circled" output="⓻"/>
+            <when state="fullwidth" output="７"/>
+        </action>
+        <action id="7 3">
+            <when state="none" output="7"/>
+            <when state="circled" output="➐"/>
+        </action>
+        <action id="8">
+            <when state="none" output="8"/>
+            <when state="circled" output="⑧"/>
+            <when state="close" output="⸩"/>
+            <when state="combining" output="͙"/>
+            <when state="fraction" next="fraction8"/>
+            <when state="fraction1" output="¹⁄₈"/>
+            <when state="fraction10" output="¹⁰⁄₈"/>
+            <when state="fraction11" output="¹¹⁄₈"/>
+            <when state="fraction12" output="¹²⁄₈"/>
+            <when state="fraction13" output="¹³⁄₈"/>
+            <when state="fraction14" output="¹⁴⁄₈"/>
+            <when state="fraction15" output="¹⁵⁄₈"/>
+            <when state="fraction2" output="²⁄₈"/>
+            <when state="fraction3" output="⅜"/>
+            <when state="fraction4" output="⁴⁄₈"/>
+            <when state="fraction5" output="⅝"/>
+            <when state="fraction6" output="⁶⁄₈"/>
+            <when state="fraction7" output="⅞"/>
+            <when state="fraction8" output="⁸⁄₈"/>
+            <when state="fraction9" output="⁹⁄₈"/>
+            <when state="fullwidth" output="８"/>
+            <when state="math1" output="∗"/>
+            <when state="open" output="⸨"/>
+            <when state="specials" output="ȣ"/>
+            <when state="subscript" output="₈"/>
+            <when state="superscript" output="⁸"/>
+        </action>
+        <action id="8 1">
+            <when state="none" output="8"/>
+            <when state="circled" output="➇"/>
+            <when state="fullwidth" output="８"/>
+        </action>
+        <action id="8 2">
+            <when state="none" output="8"/>
+            <when state="circled" output="⓼"/>
+            <when state="fullwidth" output="８"/>
+        </action>
+        <action id="8 3">
+            <when state="none" output="8"/>
+            <when state="circled" output="➑"/>
+        </action>
+        <action id="9">
+            <when state="none" output="9"/>
+            <when state="circled" output="⑨"/>
+            <when state="close" output="⦆"/>
+            <when state="fraction" next="fraction9"/>
+            <when state="fraction1" output="¹⁄₉"/>
+            <when state="fraction10" output="¹⁰⁄₉"/>
+            <when state="fraction11" output="¹¹⁄₉"/>
+            <when state="fraction12" output="¹²⁄₉"/>
+            <when state="fraction13" output="¹³⁄₉"/>
+            <when state="fraction14" output="¹⁴⁄₉"/>
+            <when state="fraction15" output="¹⁵⁄₉"/>
+            <when state="fraction2" output="²⁄₉"/>
+            <when state="fraction3" output="³⁄₉"/>
+            <when state="fraction4" output="⁴⁄₉"/>
+            <when state="fraction5" output="⁵⁄₉"/>
+            <when state="fraction6" output="⁶⁄₉"/>
+            <when state="fraction7" output="⁷⁄₉"/>
+            <when state="fraction8" output="⁸⁄₉"/>
+            <when state="fraction9" output="⁹⁄₉"/>
+            <when state="fullwidth" output="９"/>
+            <when state="open" output="⦅"/>
+            <when state="subscript" output="₉"/>
+            <when state="superscript" output="⁹"/>
+        </action>
+        <action id="9 1">
+            <when state="none" output="9"/>
+            <when state="circled" output="➈"/>
+            <when state="fullwidth" output="９"/>
+        </action>
+        <action id="9 2">
+            <when state="none" output="9"/>
+            <when state="circled" output="⓽"/>
+            <when state="fullwidth" output="Ｉ"/>
+        </action>
+        <action id="9 3">
+            <when state="none" output="9"/>
+            <when state="circled" output="➒"/>
+        </action>
+        <action id="=">
+            <when state="none" output="="/>
+            <when state="close" output="⦄"/>
+            <when state="combining" output="͇"/>
+            <when state="fullwidth" output="＝"/>
+            <when state="math1" output="≡"/>
+            <when state="open" output="⦃"/>
+            <when state="subscript" output="₌"/>
+            <when state="superscript" output="⁼"/>
+        </action>
+        <action id="= 1">
+            <when state="none" output="="/>
+            <when state="fullwidth" output="＝"/>
+        </action>
+        <action id="= 2">
+            <when state="none" output="="/>
+            <when state="fullwidth" output="＝"/>
+        </action>
+        <action id="?">
+            <when state="none" output="?"/>
+            <when state="close" output="⦖"/>
+            <when state="combining" output="̸"/>
+            <when state="ctrl" output="␡"/>
+            <when state="fraction1" output="¹⁄"/>
+            <when state="fullwidth" output="？"/>
+            <when state="math1" output="⁄"/>
+            <when state="open" output="⦕"/>
+        </action>
+        <action id="@">
+            <when state="none" output="@"/>
+            <when state="circled" output="⑫"/>
+            <when state="combining" output="͢"/>
+            <when state="ctrl" output="␀"/>
+            <when state="fraction" next="fraction12"/>
+            <when state="fullwidth" output="＠"/>
+            <when state="specials" output="Ƨ"/>
+            <when state="subscript" output="ᵦ"/>
+            <when state="superscript" output="ᵝ"/>
+        </action>
+        <action id="A">
+            <when state="none" output="A"/>
+            <when state="acute" output="Á"/>
+            <when state="breve" output="Ă"/>
+            <when state="caron" output="Ǎ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓐ"/>
+            <when state="circumflex" output="Â"/>
+            <when state="close" output="❞"/>
+            <when state="combining" output="̅"/>
+            <when state="diaeresis" output="Ä"/>
+            <when state="dotabove" output="Ȧ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ạ"/>
+            <!-- added -->
+            <when state="doublegrave" output="Ȁ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ａ"/>
+            <when state="grave" output="À"/>
+            <when state="greek" output="Α"/>
+            <when state="hebrew" output="ﬡ"/>
+            <when state="hook" output="Ả"/>
+            <!-- added -->
+            <when state="invertedbreve" output="Ȃ"/>
+            <!-- added -->
+            <when state="latin" output="̄"/>
+            <when state="macron" output="Ā"/>
+            <when state="math1" output="ℵ"/>
+            <when state="ogonek" output="Ą"/>
+            <when state="open" output="❝"/>
+            <when state="ringabove" output="Å"/>
+            <when state="specials" output="Ə"/>
+            <!-- added -->
+            <when state="superscript" output="ᴬ"/>
+            <when state="tilde" output="Ã"/>
+        </action>
+        <action id="B">
+            <when state="none" output="B"/>
+            <when state="circled" output="Ⓑ"/>
+            <when state="close" output="〛"/>
+            <when state="combining" output="̐"/>
+            <when state="dotabove" output="Ḃ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ḅ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｂ"/>
+            <when state="greek" output="Β"/>
+            <when state="hooked" output="Ɓ"/>
+            <!-- added -->
+            <when state="latin" output="̆"/>
+            <when state="macronbelow" output="Ḇ"/>
+            <!-- added -->
+            <when state="math1" output="ℶ"/>
+            <when state="open" output="〚"/>
+            <when state="superscript" output="ᴮ"/>
+        </action>
+        <action id="C">
+            <when state="none" output="C"/>
+            <when state="acute" output="Ć"/>
+            <when state="bold" output="ℂ"/>
+            <when state="caron" output="Č"/>
+            <when state="cedilla" output="Ç"/>
+            <when state="circled" output="Ⓒ"/>
+            <when state="circumflex" output="Ĉ"/>
+            <when state="close" output="〗"/>
+            <when state="combining" output="̜"/>
+            <when state="dotabove" output="Ċ"/>
+            <when state="fullwidth" output="Ｃ"/>
+            <when state="greek" output="Ψ"/>
+            <when state="hooked" output="Ƈ"/>
+            <!-- added -->
+            <when state="latin" output="̧"/>
+            <when state="math1" output="ℷ"/>
+            <when state="open" output="〖"/>
+            <when state="specials" output="Ɔ"/>
+            <!-- added -->
+        </action>
+        <action id="D">
+            <when state="none" output="D"/>
+            <when state="bold" output="ⅅ"/>
+            <when state="caron" output="Ď"/>
+            <when state="cedilla" output="Ḑ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓓ"/>
+            <when state="circumflexbelow" output="Ḓ"/>
+            <!-- added -->
+            <when state="combining" output="͎"/>
+            <when state="dotabove" output="Ḋ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ḍ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｄ"/>
+            <when state="greek" output="Δ"/>
+            <when state="hebrew" output="ﬢ"/>
+            <when state="hooked" output="Ɗ"/>
+            <!-- added -->
+            <when state="macronbelow" output="Ḏ"/>
+            <!-- added -->
+            <when state="math1" output="∆"/>
+            <when state="stroke" output="Đ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴰ"/>
+        </action>
+        <action id="E">
+            <when state="none" output="E"/>
+            <when state="acute" output="É"/>
+            <when state="breve" output="Ĕ"/>
+            <when state="caron" output="Ě"/>
+            <when state="cedilla" output="Ȩ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓔ"/>
+            <when state="circumflex" output="Ê"/>
+            <when state="circumflexbelow" output="Ḙ"/>
+            <!-- added -->
+            <when state="combining" output="́"/>
+            <when state="diaeresis" output="Ë"/>
+            <when state="dotabove" output="Ė"/>
+            <when state="dotbelow" output="Ẹ"/>
+            <!-- added -->
+            <when state="doublegrave" output="Ȅ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｅ"/>
+            <when state="grave" output="È"/>
+            <when state="greek" output="Ε"/>
+            <when state="hook" output="Ẻ"/>
+            <!-- added -->
+            <when state="invertedbreve" output="Ȇ"/>
+            <!-- added -->
+            <when state="latin" output="́"/>
+            <when state="macron" output="Ē"/>
+            <when state="math1" output="∋"/>
+            <when state="ogonek" output="Ę"/>
+            <when state="ringabove" output="E̊"/>
+            <!-- added -->
+            <when state="specials" output="Ǝ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴱ"/>
+            <when state="tilde" output="Ẽ"/>
+            <!-- added -->
+            <when state="tildebelow" output="Ḛ"/>
+            <!-- added -->
+        </action>
+        <action id="F">
+            <when state="none" output="F"/>
+            <when state="circled" output="Ⓕ"/>
+            <when state="dotabove" output="Ḟ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｆ"/>
+            <when state="greek" output="Φ"/>
+            <when state="hooked" output="Ƒ"/>
+            <!-- added -->
+            <when state="latin" output="̰"/>
+        </action>
+        <action id="G">
+            <when state="none" output="G"/>
+            <when state="acute" output="Ǵ"/>
+            <!-- added -->
+            <when state="bold" output="ℾ"/>
+            <when state="breve" output="Ğ"/>
+            <when state="caron" output="Ǧ"/>
+            <!-- added -->
+            <when state="cedilla" output="Ģ"/>
+            <when state="circled" output="Ⓖ"/>
+            <when state="circumflex" output="Ĝ"/>
+            <when state="dotabove" output="Ġ"/>
+            <when state="fullwidth" output="Ｇ"/>
+            <when state="greek" output="Γ"/>
+            <when state="hooked" output="Ɠ"/>
+            <!-- added -->
+            <when state="latin" output="̭"/>
+            <when state="macron" output="Ḡ"/>
+            <!-- added -->
+            <when state="specials" output="Ɣ"/>
+            <!-- added -->
+            <when state="stroke" output="Ǥ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴳ"/>
+        </action>
+        <action id="H">
+            <when state="none" output="H"/>
+            <when state="bold" output="ℍ"/>
+            <when state="breve" output="Ḫ"/>
+            <!-- added -->
+            <when state="caron" output="Ȟ"/>
+            <!-- added -->
+            <when state="cedilla" output="Ḩ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓗ"/>
+            <when state="circumflex" output="Ĥ"/>
+            <when state="diaeresis" output="Ḧ"/>
+            <!-- added -->
+            <when state="dotabove" output="Ḣ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ḥ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｈ"/>
+            <when state="greek" output="Η"/>
+            <when state="hebrew" output="ﬣ"/>
+            <when state="keyboard" output="←"/>
+            <when state="latin" output="̱"/>
+            <when state="macronbelow" output="H̱"/>
+            <!-- added -->
+            <when state="specials" output="Ƕ"/>
+            <!-- added -->
+            <when state="stroke" output="Ħ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴴ"/>
+        </action>
+        <action id="I">
+            <when state="none" output="I"/>
+            <when state="acute" output="Í"/>
+            <when state="breve" output="Ĭ"/>
+            <when state="caron" output="Ǐ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓘ"/>
+            <when state="circumflex" output="Î"/>
+            <when state="diaeresis" output="Ï"/>
+            <when state="dotabove" output="İ"/>
+            <when state="dotbelow" output="Ị"/>
+            <!-- added -->
+            <when state="doublegrave" output="Ȉ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｉ"/>
+            <when state="grave" output="Ì"/>
+            <when state="greek" output="Ι"/>
+            <when state="hook" output="Ỉ"/>
+            <!-- added -->
+            <when state="hooked" output="Ɩ"/>
+            <!-- added -->
+            <when state="invertedbreve" output="Ȋ"/>
+            <!-- added -->
+            <when state="latin" output="̛"/>
+            <when state="macron" output="Ī"/>
+            <when state="ogonek" output="Į"/>
+            <when state="stroke" output="Ɨ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴵ"/>
+            <when state="tilde" output="Ĩ"/>
+            <!-- added -->
+            <when state="tildebelow" output="Ḭ"/>
+            <!-- added -->
+        </action>
+        <action id="J">
+            <when state="none" output="J"/>
+            <when state="caron" output="J̌"/>
+            <!-- added -->
+            <when state="circled" output="Ⓙ"/>
+            <when state="circumflex" output="Ĵ"/>
+            <when state="fullwidth" output="Ｊ"/>
+            <when state="greek" output="Ξ"/>
+            <when state="keyboard" output="↓"/>
+            <when state="latin" output="̋"/>
+            <when state="specials" output="Ƞ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴶ"/>
+        </action>
+        <action id="K">
+            <when state="none" output="K"/>
+            <when state="acute" output="Ḱ"/>
+            <!-- added -->
+            <when state="caron" output="Ǩ"/>
+            <!-- added -->
+            <when state="cedilla" output="Ķ"/>
+            <when state="circled" output="Ⓚ"/>
+            <when state="close" output="⟭"/>
+            <when state="dotbelow" output="Ḳ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｋ"/>
+            <when state="greek" output="Κ"/>
+            <when state="hebrew" output="ﬤ"/>
+            <when state="hooked" output="Ƙ"/>
+            <!-- added -->
+            <when state="keyboard" output="↑"/>
+            <when state="latin" output="̊"/>
+            <when state="macronbelow" output="Ḵ"/>
+            <!-- added -->
+            <when state="open" output="⟬"/>
+            <when state="specials" output="K’"/>
+            <!-- added -->
+            <when state="superscript" output="ᴷ"/>
+        </action>
+        <action id="L">
+            <when state="none" output="L"/>
+            <when state="acute" output="Ĺ"/>
+            <when state="caron" output="Ľ"/>
+            <when state="cedilla" output="Ļ"/>
+            <when state="circled" output="Ⓛ"/>
+            <when state="circumflexbelow" output="Ḽ"/>
+            <!-- added -->
+            <when state="combining" output="̶"/>
+            <when state="dotbelow" output="Ḷ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｌ"/>
+            <when state="greek" output="Λ"/>
+            <when state="hebrew" output="ﬥ"/>
+            <when state="keyboard" output="→"/>
+            <when state="latin" output="̵"/>
+            <when state="macron" output="Ḹ"/>
+            <!-- added -->
+            <when state="macronbelow" output="Ḻ"/>
+            <!-- added -->
+            <when state="open" output="„"/>
+            <when state="stroke" output="Ł"/>
+            <!-- added -->
+            <when state="superscript" output="ᴸ"/>
+        </action>
+        <action id="M">
+            <when state="none" output="M"/>
+            <when state="acute" output="Ḿ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓜ"/>
+            <when state="circumflex" output="M̂"/>
+            <!-- added -->
+            <when state="close" output="｣"/>
+            <when state="combining" output="͊"/>
+            <when state="dotabove" output="Ṁ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ṃ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｍ"/>
+            <when state="greek" output="Μ"/>
+            <when state="latin" output="̨"/>
+            <when state="open" output="｢"/>
+            <when state="specials" output="Ɯ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴹ"/>
+        </action>
+        <action id="N">
+            <when state="none" output="N"/>
+            <when state="acute" output="Ń"/>
+            <when state="bold" output="ℕ"/>
+            <when state="caron" output="Ň"/>
+            <when state="cedilla" output="Ņ"/>
+            <when state="circled" output="Ⓝ"/>
+            <when state="circumflex" output="N̂"/>
+            <!-- added -->
+            <when state="circumflexbelow" output="Ṋ"/>
+            <!-- added -->
+            <when state="close" output="｠"/>
+            <when state="combining" output="̴"/>
+            <when state="dotabove" output="Ṅ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ṇ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｎ"/>
+            <when state="grave" output="Ǹ"/>
+            <!-- added -->
+            <when state="greek" output="Ν"/>
+            <when state="hooked" output="Ɲ"/>
+            <!-- added -->
+            <when state="latin" output="̃"/>
+            <when state="macronbelow" output="Ṉ"/>
+            <!-- added -->
+            <when state="open" output="｟"/>
+            <when state="specials" output="Ŋ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴺ"/>
+            <when state="tilde" output="Ñ"/>
+        </action>
+        <action id="O">
+            <when state="none" output="O"/>
+            <when state="acute" output="Ó"/>
+            <when state="breve" output="Ŏ"/>
+            <when state="caron" output="Ǒ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓞ"/>
+            <when state="circumflex" output="Ô"/>
+            <when state="diaeresis" output="Ö"/>
+            <when state="dotabove" output="Ȯ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ọ"/>
+            <!-- added -->
+            <when state="doubleacute" output="Ő"/>
+            <when state="doublegrave" output="Ȍ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｏ"/>
+            <when state="grave" output="Ò"/>
+            <when state="greek" output="Ο"/>
+            <when state="hook" output="Ỏ"/>
+            <!-- added -->
+            <when state="horn" output="Ơ"/>
+            <!-- added -->
+            <when state="invertedbreve" output="Ȏ"/>
+            <!-- added -->
+            <when state="keyboard" output="⎇"/>
+            <when state="macron" output="Ō"/>
+            <when state="ogonek" output="Ǫ"/>
+            <!-- added -->
+            <when state="ringabove" output="O̊"/>
+            <!-- added -->
+            <when state="stroke" output="Ɵ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴼ"/>
+            <when state="tilde" output="Õ"/>
+        </action>
+        <action id="P">
+            <when state="none" output="P"/>
+            <when state="acute" output="Ṕ"/>
+            <!-- added -->
+            <when state="bold" output="ℙ"/>
+            <when state="circled" output="Ⓟ"/>
+            <when state="close" output="⦐"/>
+            <when state="combining" output="̓"/>
+            <when state="dotabove" output="Ṗ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｐ"/>
+            <when state="greek" output="Π"/>
+            <when state="hooked" output="Ƥ"/>
+            <!-- added -->
+            <when state="latin" output="̦"/>
+            <when state="math1" output="∏"/>
+            <when state="open" output="⦍"/>
+            <when state="superscript" output="ᴾ"/>
+        </action>
+        <action id="Q">
+            <when state="none" output="Q"/>
+            <when state="bold" output="ℚ"/>
+            <when state="circled" output="Ⓠ"/>
+            <when state="combining" output="̪"/>
+            <when state="fullwidth" output="Ｑ"/>
+            <when state="greek" output="Ϙ"/>
+            <when state="math1" output="⊆"/>
+            <when state="specials" output="Ƣ"/>
+            <!-- added -->
+        </action>
+        <action id="R">
+            <when state="none" output="R"/>
+            <when state="acute" output="Ŕ"/>
+            <when state="bold" output="ℝ"/>
+            <when state="caron" output="Ř"/>
+            <when state="cedilla" output="Ŗ"/>
+            <when state="circled" output="Ⓡ"/>
+            <when state="combining" output="̼"/>
+            <when state="dotabove" output="Ṙ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ṛ"/>
+            <!-- added -->
+            <when state="doublegrave" output="Ȑ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｒ"/>
+            <when state="greek" output="Ρ"/>
+            <when state="hebrew" output="ﬧ"/>
+            <when state="hooked" output="Ʈ"/>
+            <!-- added -->
+            <when state="invertedbreve" output="Ȓ"/>
+            <!-- added -->
+            <when state="macron" output="Ṝ"/>
+            <!-- added -->
+            <when state="macronbelow" output="Ṟ"/>
+            <!-- added -->
+            <when state="math1" output="∛"/>
+            <when state="specials" output="Ʀ"/>
+            <!-- added -->
+            <when state="superscript" output="ᴿ"/>
+        </action>
+        <action id="S">
+            <when state="none" output="S"/>
+            <when state="acute" output="Ś"/>
+            <when state="bold" output="⅀"/>
+            <when state="caron" output="Š"/>
+            <when state="cedilla" output="Ş"/>
+            <when state="circled" output="Ⓢ"/>
+            <when state="circumflex" output="Ŝ"/>
+            <when state="commabelow" output="Ș"/>
+            <when state="dotabove" output="Ṡ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ṣ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｓ"/>
+            <when state="greek" output="Σ"/>
+            <when state="hooked" output="Ʃ"/>
+            <!-- added -->
+            <when state="keyboard" output="⇪"/>
+            <when state="latin" output="̑"/>
+            <when state="macron" output="S̄"/>
+            <!-- added -->
+            <when state="math1" output="∑"/>
+        </action>
+        <action id="T">
+            <when state="none" output="T"/>
+            <when state="caron" output="Ť"/>
+            <when state="cedilla" output="Ţ"/>
+            <when state="circled" output="Ⓣ"/>
+            <when state="circumflexbelow" output="Ṱ"/>
+            <!-- added -->
+            <when state="combining" output="̙"/>
+            <when state="commabelow" output="Ț"/>
+            <when state="diaeresis" output="T̈"/>
+            <!-- added -->
+            <when state="dotabove" output="Ṫ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ṭ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｔ"/>
+            <when state="greek" output="Τ"/>
+            <when state="hooked" output="Ƭ"/>
+            <!-- added -->
+            <when state="keyboard" output="⇤"/>
+            <when state="macronbelow" output="Ṯ"/>
+            <!-- added -->
+            <when state="stroke" output="Ŧ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵀ"/>
+        </action>
+        <action id="U">
+            <when state="none" output="U"/>
+            <when state="acute" output="Ú"/>
+            <when state="breve" output="Ŭ"/>
+            <when state="caron" output="Ǔ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓤ"/>
+            <when state="circumflex" output="Û"/>
+            <when state="circumflexbelow" output="Ṷ"/>
+            <!-- added -->
+            <when state="diaeresis" output="Ü"/>
+            <when state="dotbelow" output="Ụ"/>
+            <!-- added -->
+            <when state="doubleacute" output="Ű"/>
+            <when state="doublegrave" output="Ȕ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｕ"/>
+            <when state="grave" output="Ù"/>
+            <when state="greek" output="Θ"/>
+            <when state="hebrew" output="ﬨ"/>
+            <when state="hook" output="Ủ"/>
+            <!-- added -->
+            <when state="hooked" output="Ʋ"/>
+            <!-- added -->
+            <when state="horn" output="Ư"/>
+            <!-- added -->
+            <when state="invertedbreve" output="Ȗ"/>
+            <!-- added -->
+            <when state="latin" output="̈"/>
+            <when state="macron" output="Ū"/>
+            <when state="ogonek" output="Ų"/>
+            <when state="ringabove" output="Ů"/>
+            <when state="specials" output="Ʊ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵁ"/>
+            <when state="tilde" output="Ũ"/>
+            <!-- added -->
+            <when state="tildebelow" output="Ṵ"/>
+            <!-- added -->
+        </action>
+        <action id="V">
+            <when state="none" output="V"/>
+            <when state="acute" output="Ǘ"/>
+            <!-- added -->
+            <when state="caron" output="Ǚ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓥ"/>
+            <when state="close" output="〙"/>
+            <when state="combining" output="̹"/>
+            <when state="dotbelow" output="Ṿ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｖ"/>
+            <when state="grave" output="Ǜ"/>
+            <!-- added -->
+            <when state="greek" output="Ω"/>
+            <when state="latin" output="̌"/>
+            <when state="macron" output="Ǖ"/>
+            <!-- added -->
+            <when state="open" output="〘"/>
+            <when state="superscript" output="ⱽ"/>
+            <when state="tilde" output="Ṽ"/>
+            <!-- added -->
+        </action>
+        <action id="W">
+            <when state="none" output="W"/>
+            <when state="acute" output="Ẃ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓦ"/>
+            <when state="circumflex" output="Ŵ"/>
+            <when state="diaeresis" output="Ẅ"/>
+            <!-- added -->
+            <when state="dotabove" output="Ẇ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ẉ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｗ"/>
+            <when state="grave" output="Ẁ"/>
+            <!-- added -->
+            <when state="latin" output="̇"/>
+            <when state="math1" output="⊇"/>
+            <when state="ringabove" output="W̊"/>
+            <!-- added -->
+            <when state="specials" output="Ƿ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵂ"/>
+        </action>
+        <action id="X">
+            <when state="none" output="X"/>
+            <when state="caron" output="Ǯ"/>
+            <!-- added -->
+            <when state="circled" output="Ⓧ"/>
+            <when state="close" output="』"/>
+            <when state="combining" output="̽"/>
+            <when state="diaeresis" output="Ẍ"/>
+            <!-- added -->
+            <when state="dotabove" output="Ẋ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｘ"/>
+            <when state="greek" output="Χ"/>
+            <when state="hooked" output="Ɖ"/>
+            <!-- added -->
+            <when state="latin" output="̣"/>
+            <when state="open" output="『"/>
+        </action>
+        <action id="Y">
+            <when state="none" output="Y"/>
+            <when state="acute" output="Ý"/>
+            <when state="circled" output="Ⓨ"/>
+            <when state="circumflex" output="Ŷ"/>
+            <when state="diaeresis" output="Ÿ"/>
+            <when state="dotabove" output="Ẏ"/>
+            <!-- added -->
+            <when state="dotbelow" output="Ỵ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｙ"/>
+            <when state="grave" output="Ỳ"/>
+            <!-- added -->
+            <when state="greek" output="Υ"/>
+            <when state="hook" output="Ỷ"/>
+            <!-- added -->
+            <when state="hooked" output="Ƴ"/>
+            <!-- added -->
+            <when state="latin" output="̏"/>
+            <when state="macron" output="Ȳ"/>
+            <!-- added -->
+            <when state="ringabove" output="Y̊"/>
+            <!-- added -->
+            <when state="specials" output="Ȝ"/>
+            <!-- added -->
+            <when state="tilde" output="Ỹ"/>
+            <!-- added -->
+        </action>
+        <action id="Z">
+            <when state="none" output="Z"/>
+            <when state="acute" output="Ź"/>
+            <when state="bold" output="ℤ"/>
+            <when state="caron" output="Ž"/>
+            <when state="cedilla" output="Z̧"/>
+            <!-- added -->
+            <when state="circled" output="Ⓩ"/>
+            <when state="circumflex" output="Ẑ"/>
+            <!-- added -->
+            <when state="close" output="》"/>
+            <when state="dotabove" output="Ż"/>
+            <when state="dotbelow" output="Ẓ"/>
+            <!-- added -->
+            <when state="fullwidth" output="Ｚ"/>
+            <when state="greek" output="Ζ"/>
+            <when state="hooked" output="Ȥ"/>
+            <!-- added -->
+            <when state="latin" output="̉"/>
+            <when state="macron" output="Z̄"/>
+            <!-- added -->
+            <when state="macronbelow" output="Ẕ"/>
+            <!-- added -->
+            <when state="open" output="《"/>
+            <when state="specials" output="Ʒ"/>
+            <!-- added -->
+            <when state="stroke" output="Ƶ"/>
+            <!-- added -->
+        </action>
+        <action id="[">
+            <when state="none" output="["/>
+            <when state="close" output="⟦"/>
+            <when state="ctrl" output="␛"/>
+            <when state="fullwidth" output="［"/>
+            <when state="open" output="⟦"/>
+        </action>
+        <action id="\">
+            <when state="none" output="\"/>
+            <when state="close" output="⧙"/>
+            <when state="ctrl" output="␜"/>
+            <when state="fullwidth" output="＼"/>
+            <when state="keyboard" output="⌥"/>
+            <when state="math1" output="∖"/>
+            <when state="open" output="⧘"/>
+        </action>
+        <action id="]">
+            <when state="none" output="]"/>
+            <when state="close" output="⟧"/>
+            <when state="ctrl" output="␝"/>
+            <when state="fullwidth" output="］"/>
+            <when state="open" output="⟧"/>
+        </action>
+        <action id="^">
+            <when state="none" output="^"/>
+            <when state="circled" output="⑯"/>
+            <when state="combining" output="͐"/>
+            <when state="ctrl" output="␞"/>
+            <when state="fullwidth" output="＾"/>
+            <when state="latin" output="̂"/>
+            <when state="specials" output="Ƅ"/>
+            <when state="superscript" output="ᶿ"/>
+        </action>
+        <action id="_">
+            <when state="none" output="_"/>
+            <when state="circled" output="⑳"/>
+            <when state="combining" output="̲"/>
+            <when state="ctrl" output="␟"/>
+            <when state="fullwidth" output="＿"/>
+            <when state="math1" output="∓"/>
+        </action>
+        <action id="`">
+            <when state="none" output="`"/>
+            <when state="close" output="›"/>
+            <when state="combining" output="̀"/>
+            <when state="fullwidth" output="｀"/>
+            <when state="latin" next="grave"/>
+            <when state="math1" output="≈"/>
+            <when state="open" output="‹"/>
+        </action>
+        <action id="a">
+            <when state="none" output="a"/>
+            <when state="acute" output="á"/>
+            <when state="breve" output="ă"/>
+            <when state="caron" output="ǎ"/>
+            <!-- added -->
+            <when state="circled" output="ⓐ"/>
+            <when state="circumflex" output="â"/>
+            <when state="close" output="❜"/>
+            <when state="combining" output="̄"/>
+            <when state="ctrl" output="␁"/>
+            <when state="diaeresis" output="ä"/>
+            <when state="dotabove" output="ȧ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ạ"/>
+            <!-- added -->
+            <when state="doublegrave" output="ȁ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ａ"/>
+            <when state="grave" output="à"/>
+            <when state="greek" output="α"/>
+            <when state="hebrew" output="א"/>
+            <when state="hook" output="ả"/>
+            <!-- added -->
+            <when state="invertedbreve" output="ȃ"/>
+            <!-- added -->
+            <when state="ipa" output="ɐ"/>
+            <when state="keyboard" output=""/>
+            <when state="latin" next="macron"/>
+            <when state="macron" output="ā"/>
+            <when state="math1" output="∀"/>
+            <when state="ogonek" output="ą"/>
+            <when state="open" output="❛"/>
+            <when state="ringabove" output="å"/>
+            <when state="specials" output="ə"/>
+            <!-- added -->
+            <when state="subscript" output="ₐ"/>
+            <when state="superscript" output="ª"/>
+            <when state="tilde" output="ã"/>
+        </action>
+        <action id="action">
+            <when state="none" output="∴"/>
+            <when state="combining" output="̞"/>
+            <when state="superscript" output="ͭ"/>
+        </action>
+        <action id="action 1">
+            <when state="none" output="þ"/>
+            <when state="combining" output="̻"/>
+            <when state="math1" output="⊄"/>
+        </action>
+        <action id="acute">
+            <when state="none" next="acute"/>
+            <when state="combining" output="̗"/>
+            <when state="hebrew" output="ﬠ"/>
+            <when state="latin" next="acute"/>
+            <when state="math1" output="∉"/>
+            <when state="superscript" output="ͤ"/>
+        </action>
+        <action id="b">
+            <when state="none" output="b"/>
+            <when state="circled" output="ⓑ"/>
+            <when state="close" output="］"/>
+            <when state="combining" output="̆"/>
+            <when state="ctrl" output="␂"/>
+            <when state="dotabove" output="ḃ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ḅ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｂ"/>
+            <when state="greek" output="β"/>
+            <when state="hebrew" output="ב"/>
+            <when state="hooked" output="ɓ"/>
+            <!-- added -->
+            <when state="latin" next="breve"/>
+            <when state="macronbelow" output="ḇ"/>
+            <!-- added -->
+            <when state="open" output="［"/>
+            <when state="stroke" output="ƀ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵇ"/>
+        </action>
+        <action id="breve">
+            <when state="none" output="␣"/>
+            <when state="close" output="﹈"/>
+            <when state="combining" output="̮"/>
+            <when state="ctrl" output="␢"/>
+            <when state="greek" output="ϐ"/>
+            <when state="hebrew" output="ℶ"/>
+            <when state="latin" next="breve"/>
+            <when state="open" output="﹇"/>
+        </action>
+        <action id="c">
+            <when state="none" output="c"/>
+            <when state="acute" output="ć"/>
+            <when state="caron" output="č"/>
+            <when state="cedilla" output="ç"/>
+            <when state="circled" output="ⓒ"/>
+            <when state="circumflex" output="ĉ"/>
+            <when state="close" output="】"/>
+            <when state="combining" output="̧"/>
+            <when state="ctrl" output="␃"/>
+            <when state="dotabove" output="ċ"/>
+            <when state="fullwidth" output="ｃ"/>
+            <when state="greek" output="ψ"/>
+            <when state="hooked" output="ƈ"/>
+            <!-- added -->
+            <when state="keyboard" output="⌃"/>
+            <when state="latin" next="cedilla"/>
+            <when state="math1" output="∁"/>
+            <when state="open" output="【"/>
+            <when state="specials" output="ɔ"/>
+            <!-- added -->
+            <when state="superscript" output="ᶜ"/>
+        </action>
+        <action id="caron">
+            <when state="none" output="√"/>
+            <when state="close" output="︺"/>
+            <when state="combining" output="̬"/>
+            <when state="greek" output="Ω"/>
+            <when state="latin" next="caron"/>
+            <when state="open" output="︹"/>
+            <when state="superscript" output="ͮ"/>
+        </action>
+        <action id="cedilla">
+            <when state="none" output="⌘"/>
+            <when state="circled" output="©"/>
+            <when state="close" output="︼"/>
+            <when state="combining" output="̡"/>
+            <when state="latin" next="cedilla"/>
+            <when state="open" output="︻"/>
+            <when state="superscript" output="ͨ"/>
+        </action>
+        <action id="circumflex">
+            <when state="none" next="circumflex"/>
+        </action>
+        <action id="circumflexbelow">
+            <when state="none" next="circumflexbelow"/>
+            <!-- added -->
+        </action>
+        <action id="colon">
+            <when state="none" output=":"/>
+            <when state="fullwidth" output="："/>
+            <when state="math1" output="∵"/>
+            <when state="open" output="‟"/>
+        </action>
+        <action id="comma">
+            <when state="none" output=","/>
+            <when state="close" output="⟩"/>
+            <when state="combining" output="̦"/>
+            <when state="fullwidth" output="，"/>
+            <when state="keyboard" output="⌫"/>
+            <when state="open" output="⟨"/>
+        </action>
+        <action id="commabelow">
+            <when state="none" output="π"/>
+            <when state="bold" output="ℼ"/>
+            <when state="circled" output="℗"/>
+            <when state="combining" output="̔"/>
+            <when state="greek" output="ϖ"/>
+            <when state="hebrew" output="ף"/>
+            <when state="latin" next="commabelow"/>
+            <when state="superscript" output="ͧ"/>
+        </action>
+        <action id="d">
+            <when state="none" output="d"/>
+            <when state="bold" output="ⅆ"/>
+            <when state="caron" output="ď"/>
+            <when state="cedilla" output="ḑ"/>
+            <!-- added -->
+            <when state="circled" output="ⓓ"/>
+            <when state="circumflexbelow" output="ḓ"/>
+            <!-- added -->
+            <when state="close" output="₎"/>
+            <when state="combining" output="͍"/>
+            <when state="ctrl" output="␄"/>
+            <when state="dotabove" output="ḋ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ḍ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｄ"/>
+            <when state="greek" output="δ"/>
+            <when state="hebrew" output="ד"/>
+            <when state="hooked" output="ɗ"/>
+            <!-- added -->
+            <when state="macronbelow" output="ḏ"/>
+            <!-- added -->
+            <when state="math1" output="∂"/>
+            <when state="open" output="₍"/>
+            <when state="stroke" output="đ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵈ"/>
+        </action>
+        <action id="diaeresis">
+            <when state="none" next="diaeresis"/>
+            <when state="combining" output="̤"/>
+            <when state="greek" output="ϐ"/>
+            <when state="latin" next="diaresis"/>
+        </action>
+        <action id="dot">
+            <when state="none" output="."/>
+            <when state="close" output="⦒"/>
+            <when state="combining" output="̣"/>
+            <when state="fullwidth" output="．"/>
+            <when state="keyboard" output="⌦"/>
+            <when state="latin" next="hooked"/>
+            <when state="math1" output="·"/>
+            <when state="open" output="⦑"/>
+        </action>
+        <action id="dot 1">
+            <when state="none" output="."/>
+            <when state="circled" output="➉"/>
+            <when state="fullwidth" output="．"/>
+        </action>
+        <action id="dot 2">
+            <when state="none" output="."/>
+            <when state="circled" output="⓾"/>
+            <when state="fullwidth" output="｡"/>
+        </action>
+        <action id="dot 3">
+            <when state="none" output="."/>
+            <when state="circled" output="➓"/>
+        </action>
+        <action id="dotabove">
+            <when state="none" next="grave"/>
+            <when state="greek" output="ϛ"/>
+            <when state="latin" next="dotabove"/>
+            <when state="math1" output="⊅"/>
+        </action>
+        <action id="dotbelow">
+            <when state="none" next="subscript"/>
+            <!-- added -->
+            <when state="close" output="﹂"/>
+            <when state="combining" output="͘"/>
+            <when state="greek" output="ϗ"/>
+            <when state="latin" next="dotbelow"/>
+            <when state="math1" output="∄"/>
+            <when state="open" output="﹁"/>
+            <when state="superscript" output="ͯ"/>
+        </action>
+        <action id="doubleacute">
+            <when state="none" output="‑"/>
+            <when state="latin" next="doubleacute"/>
+        </action>
+        <action id="doublegrave">
+            <when state="none" next="doublegrave"/>
+            <!-- added -->
+        </action>
+        <action id="doublegrave 1">
+            <when state="none" output="⇒"/>
+            <when state="latin" next="doublegrave"/>
+        </action>
+        <action id="e">
+            <when state="none" output="e"/>
+            <when state="acute" output="é"/>
+            <when state="bold" output="ⅇ"/>
+            <when state="breve" output="ĕ"/>
+            <when state="caron" output="ě"/>
+            <when state="cedilla" output="ȩ"/>
+            <!-- added -->
+            <when state="circled" output="ⓔ"/>
+            <when state="circumflex" output="ê"/>
+            <when state="circumflexbelow" output="ḙ"/>
+            <!-- added -->
+            <when state="close" output="❭"/>
+            <when state="combining" output="́"/>
+            <when state="ctrl" output="␅"/>
+            <when state="diaeresis" output="ë"/>
+            <when state="dotabove" output="ė"/>
+            <when state="dotbelow" output="ẹ"/>
+            <!-- added -->
+            <when state="doublegrave" output="ȅ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｅ"/>
+            <when state="grave" output="è"/>
+            <when state="greek" output="ε"/>
+            <when state="hebrew" output="ע"/>
+            <when state="hook" output="ẻ"/>
+            <!-- added -->
+            <when state="invertedbreve" output="ȇ"/>
+            <!-- added -->
+            <when state="ipa" output="ə"/>
+            <when state="latin" next="acute"/>
+            <when state="macron" output="ē"/>
+            <when state="math1" output="∈"/>
+            <when state="ogonek" output="ę"/>
+            <when state="open" output="❬"/>
+            <when state="ringabove" output="e̊"/>
+            <!-- added -->
+            <when state="specials" output="ǝ"/>
+            <!-- added -->
+            <when state="subscript" output="ₑ"/>
+            <when state="superscript" output="ᵉ"/>
+            <when state="tilde" output="ẽ"/>
+            <!-- added -->
+            <when state="tildebelow" output="ḛ"/>
+            <!-- added -->
+        </action>
+        <action id="f">
+            <when state="none" output="f"/>
+            <when state="circled" output="ⓕ"/>
+            <when state="combining" output="͒"/>
+            <when state="ctrl" output="␆"/>
+            <when state="dotabove" output="ḟ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｆ"/>
+            <when state="greek" output="φ"/>
+            <when state="hebrew" output="צ"/>
+            <when state="hooked" output="ƒ"/>
+            <!-- added -->
+            <when state="ipa" output="ɟ"/>
+            <when state="latin" next="tildebelow"/>
+            <when state="math1" output="↦"/>
+            <when state="superscript" output="ᶠ"/>
+        </action>
+        <action id="g">
+            <when state="none" output="g"/>
+            <when state="acute" output="ǵ"/>
+            <!-- added -->
+            <when state="breve" output="ğ"/>
+            <when state="caron" output="ǧ"/>
+            <!-- added -->
+            <when state="cedilla" output="ģ"/>
+            <when state="circled" output="ⓖ"/>
+            <when state="circumflex" output="ĝ"/>
+            <when state="close" output="⟆"/>
+            <when state="ctrl" output="␇"/>
+            <when state="dotabove" output="ġ"/>
+            <when state="fullwidth" output="ｇ"/>
+            <when state="greek" output="γ"/>
+            <when state="hebrew" output="ג"/>
+            <when state="hooked" output="ɠ"/>
+            <!-- added -->
+            <when state="latin" next="circumflexbelow"/>
+            <when state="macron" output="ḡ"/>
+            <!-- added -->
+            <when state="math1" output="⇔"/>
+            <when state="open" output="⟅"/>
+            <when state="specials" output="ɣ"/>
+            <!-- added -->
+            <when state="stroke" output="ǥ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵍ"/>
+        </action>
+        <action id="grave">
+            <when state="none" next="grave"/>
+        </action>
+        <action id="greater than">
+            <when state="none" output="&#x003E;"/>
+            <when state="close" output="＞"/>
+            <when state="combining" output="̕"/>
+            <when state="fullwidth" output="＞"/>
+            <when state="math1" output="≫"/>
+            <when state="open" output="＜"/>
+        </action>
+        <action id="h">
+            <when state="none" output="h"/>
+            <when state="breve" output="ḫ"/>
+            <!-- added -->
+            <when state="caron" output="ȟ"/>
+            <!-- added -->
+            <when state="cedilla" output="ḩ"/>
+            <!-- added -->
+            <when state="circled" output="ⓗ"/>
+            <when state="circumflex" output="ĥ"/>
+            <when state="close" output="⟯"/>
+            <when state="ctrl" output="␈"/>
+            <when state="diaeresis" output="ḧ"/>
+            <!-- added -->
+            <when state="dotabove" output="ḣ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ḥ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｈ"/>
+            <when state="greek" output="η"/>
+            <when state="hebrew" output="ה"/>
+            <when state="hooked" output="ɦ"/>
+            <!-- added -->
+            <when state="ipa" output="ɥ"/>
+            <when state="keyboard" output="⇠"/>
+            <when state="latin" next="macronbelow"/>
+            <when state="macronbelow" output="ẖ"/>
+            <!-- added -->
+            <when state="math1" output="⇐"/>
+            <when state="open" output="⟮"/>
+            <when state="specials" output="ƕ"/>
+            <!-- added -->
+            <when state="stroke" output="ħ"/>
+            <!-- added -->
+            <when state="superscript" output="ʰ"/>
+        </action>
+        <action id="hook">
+            <when state="none" output="⌥"/>
+            <when state="close" output="﹀"/>
+            <when state="ctrl" output="␦"/>
+            <when state="latin" next="hook"/>
+            <when state="open" output="︿"/>
+            <when state="superscript" output="ᷦ"/>
+        </action>
+        <action id="hooked">
+            <when state="none" next="hooked"/>
+            <!-- added -->
+        </action>
+        <action id="horn">
+            <when state="none" output="∞"/>
+            <when state="greek" output="℩"/>
+            <when state="latin" next="horn"/>
+            <when state="math1" output="∫"/>
+            <when state="superscript" output="ͥ"/>
+        </action>
+        <action id="i">
+            <when state="none" output="i"/>
+            <when state="acute" output="í"/>
+            <when state="bold" output="ⅈ"/>
+            <when state="breve" output="ĭ"/>
+            <when state="caron" output="ǐ"/>
+            <!-- added -->
+            <when state="circled" output="ⓘ"/>
+            <when state="circumflex" output="î"/>
+            <when state="close" output="﴿"/>
+            <when state="combining" output="̛"/>
+            <when state="ctrl" output="␉"/>
+            <when state="diaeresis" output="ï"/>
+            <when state="dotabove" output="ı"/>
+            <!-- added -->
+            <when state="dotbelow" output="ị"/>
+            <!-- added -->
+            <when state="doublegrave" output="ȉ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｉ"/>
+            <when state="grave" output="ì"/>
+            <when state="greek" output="ι"/>
+            <when state="hook" output="ỉ"/>
+            <!-- added -->
+            <when state="hooked" output="ɩ"/>
+            <!-- added -->
+            <when state="invertedbreve" output="ȋ"/>
+            <!-- added -->
+            <when state="ipa" output="ᴉ"/>
+            <when state="keyboard" output="⎉"/>
+            <when state="latin" next="horn"/>
+            <when state="macron" output="ī"/>
+            <when state="math1" output="∩"/>
+            <when state="ogonek" output="į"/>
+            <when state="open" output="﴾"/>
+            <when state="stroke" output="ɨ"/>
+            <!-- added -->
+            <when state="subscript" output="ᵢ"/>
+            <when state="superscript" output="ⁱ"/>
+            <when state="tilde" output="ĩ"/>
+            <!-- added -->
+            <when state="tildebelow" output="ḭ"/>
+            <!-- added -->
+        </action>
+        <action id="invertedbreve">
+            <when state="none" next="invertedbreve"/>
+            <!-- added -->
+        </action>
+        <action id="j">
+            <when state="none" output="j"/>
+            <when state="bold" output="ⅉ"/>
+            <when state="caron" output="ǰ"/>
+            <!-- added -->
+            <when state="circled" output="ⓙ"/>
+            <when state="circumflex" output="ĵ"/>
+            <when state="close" output="⧽"/>
+            <when state="combining" output="̋"/>
+            <when state="ctrl" output="␊"/>
+            <when state="fullwidth" output="ｊ"/>
+            <when state="greek" output="ξ"/>
+            <when state="hebrew" output="ח"/>
+            <when state="keyboard" output="⇣"/>
+            <when state="latin" next="doubleacute"/>
+            <when state="math1" output="⇓"/>
+            <when state="open" output="⧼"/>
+            <when state="specials" output="ƞ"/>
+            <!-- added -->
+            <when state="subscript" output="ⱼ"/>
+            <when state="superscript" output="ʲ"/>
+        </action>
+        <action id="k">
+            <when state="none" output="k"/>
+            <when state="acute" output="ḱ"/>
+            <!-- added -->
+            <when state="caron" output="ǩ"/>
+            <!-- added -->
+            <when state="cedilla" output="ķ"/>
+            <when state="circled" output="ⓚ"/>
+            <when state="close" output="⦘"/>
+            <when state="combining" output="̊"/>
+            <when state="ctrl" output="␋"/>
+            <when state="dotbelow" output="ḳ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｋ"/>
+            <when state="greek" output="κ"/>
+            <when state="hebrew" output="כ"/>
+            <when state="hooked" output="ƙ"/>
+            <!-- added -->
+            <when state="ipa" output="ʞ"/>
+            <when state="keyboard" output="⇡"/>
+            <when state="latin" next="ringabove"/>
+            <when state="macronbelow" output="ḵ"/>
+            <!-- added -->
+            <when state="math1" output="⇑"/>
+            <when state="open" output="⦗"/>
+            <when state="specials" output="ĸ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵏ"/>
+        </action>
+        <action id="l">
+            <when state="none" output="l"/>
+            <when state="acute" output="ĺ"/>
+            <when state="caron" output="ľ"/>
+            <when state="cedilla" output="ļ"/>
+            <when state="circled" output="ⓛ"/>
+            <when state="circumflexbelow" output="ḽ"/>
+            <!-- added -->
+            <when state="combining" output="̵"/>
+            <when state="ctrl" output="␌"/>
+            <when state="dotbelow" output="ḷ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｌ"/>
+            <when state="greek" output="λ"/>
+            <when state="hebrew" output="ל"/>
+            <when state="keyboard" output="⇢"/>
+            <when state="latin" next="stroke"/>
+            <when state="macron" output="ḹ"/>
+            <!-- added -->
+            <when state="macronbelow" output="ḻ"/>
+            <!-- added -->
+            <when state="math1" output="⇒"/>
+            <when state="open" output="‚"/>
+            <when state="stroke" output="ł"/>
+            <!-- added -->
+            <when state="superscript" output="ˡ"/>
+        </action>
+        <action id="latin">
+            <when state="none" output="↦"/>
+            <when state="latin" next="stroke"/>
+            <when state="open" output="〟"/>
+            <when state="superscript" output="ᷝ"/>
+        </action>
+        <action id="m">
+            <when state="none" output="m"/>
+            <when state="acute" output="ḿ"/>
+            <!-- added -->
+            <when state="circled" output="ⓜ"/>
+            <when state="circumflex" output="m̂"/>
+            <!-- added -->
+            <when state="close" output="｝"/>
+            <when state="combining" output="̨"/>
+            <when state="ctrl" output="␍"/>
+            <when state="dotabove" output="ṁ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ṃ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｍ"/>
+            <when state="greek" output="μ"/>
+            <when state="hebrew" output="מ"/>
+            <when state="ipa" output="ɯ"/>
+            <when state="latin" next="ogonek"/>
+            <when state="open" output="｛"/>
+            <when state="specials" output="ɯ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵐ"/>
+        </action>
+        <action id="macron">
+            <when state="none" output="æ"/>
+            <when state="combining" output="̱"/>
+            <when state="hebrew" output="ℵ"/>
+            <when state="latin" next="macron"/>
+            <when state="superscript" output="ͣ"/>
+        </action>
+        <action id="macronbelow">
+            <when state="none" output="‐"/>
+            <!-- added -->
+            <when state="latin" next="macronbelow"/>
+            <when state="superscript" output="ͪ"/>
+        </action>
+        <action id="n">
+            <when state="none" output="n"/>
+            <when state="acute" output="ń"/>
+            <when state="caron" output="ň"/>
+            <when state="cedilla" output="ņ"/>
+            <when state="circled" output="ⓝ"/>
+            <when state="circumflex" output="n̂"/>
+            <!-- added -->
+            <when state="circumflexbelow" output="ṋ"/>
+            <!-- added -->
+            <when state="close" output="）"/>
+            <when state="combining" output="̃"/>
+            <when state="ctrl" output="␎"/>
+            <when state="dotabove" output="ṅ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ṇ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｎ"/>
+            <when state="grave" output="ǹ"/>
+            <!-- added -->
+            <when state="greek" output="ν"/>
+            <when state="hebrew" output="נ"/>
+            <when state="hooked" output="ɲ"/>
+            <!-- added -->
+            <when state="latin" next="tilde"/>
+            <when state="macronbelow" output="ṉ"/>
+            <!-- added -->
+            <when state="open" output="（"/>
+            <when state="specials" output="ŋ"/>
+            <!-- added -->
+            <when state="superscript" output="ⁿ"/>
+            <when state="tilde" output="ñ"/>
+        </action>
+        <action id="o">
+            <when state="none" output="o"/>
+            <when state="acute" output="ó"/>
+            <when state="breve" output="ŏ"/>
+            <when state="caron" output="ǒ"/>
+            <!-- added -->
+            <when state="circled" output="ⓞ"/>
+            <when state="circumflex" output="ô"/>
+            <when state="close" output="⦌"/>
+            <when state="ctrl" output="␏"/>
+            <when state="diaeresis" output="ö"/>
+            <when state="dotabove" output="ȯ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ọ"/>
+            <!-- added -->
+            <when state="doubleacute" output="ő"/>
+            <when state="doublegrave" output="ȍ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｏ"/>
+            <when state="grave" output="ò"/>
+            <when state="greek" output="ο"/>
+            <when state="hook" output="ỏ"/>
+            <!-- added -->
+            <when state="horn" output="ơ"/>
+            <!-- added -->
+            <when state="invertedbreve" output="ȏ"/>
+            <!-- added -->
+            <when state="keyboard" output="⌥"/>
+            <when state="macron" output="ō"/>
+            <when state="math1" output="∅"/>
+            <when state="ogonek" output="ǫ"/>
+            <!-- added -->
+            <when state="open" output="⦋"/>
+            <when state="ringabove" output="o̊"/>
+            <!-- added -->
+            <when state="stroke" output="ɵ"/>
+            <!-- added -->
+            <when state="subscript" output="ₒ"/>
+            <when state="superscript" output="º"/>
+            <when state="tilde" output="õ"/>
+        </action>
+        <action id="ogonek">
+            <when state="none" output="−"/>
+            <when state="close" output="︸"/>
+            <when state="combining" output="͌"/>
+            <when state="hebrew" output="ם"/>
+            <when state="latin" next="ogonek"/>
+            <when state="open" output="︷"/>
+            <when state="superscript" output="ͫ"/>
+        </action>
+        <action id="p">
+            <when state="none" output="p"/>
+            <when state="acute" output="ṕ"/>
+            <!-- added -->
+            <when state="circled" output="ⓟ"/>
+            <when state="close" output="⦎"/>
+            <when state="combining" output="̦"/>
+            <when state="ctrl" output="␐"/>
+            <when state="dotabove" output="ṗ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｐ"/>
+            <when state="greek" output="π"/>
+            <when state="hebrew" output="פ"/>
+            <when state="hooked" output="ƥ"/>
+            <!-- added -->
+            <when state="latin" next="commabelow"/>
+            <when state="math1" output="π"/>
+            <when state="open" output="⦏"/>
+            <when state="superscript" output="ᵖ"/>
+        </action>
+        <action id="q">
+            <when state="none" output="q"/>
+            <when state="circled" output="ⓠ"/>
+            <when state="close" output="❩"/>
+            <when state="combining" output="̺"/>
+            <when state="ctrl" output="␑"/>
+            <when state="fullwidth" output="ｑ"/>
+            <when state="greek" output="ϙ"/>
+            <when state="hebrew" output="ק"/>
+            <when state="hooked" output="ʠ"/>
+            <!-- added -->
+            <when state="keyboard" output="⎋"/>
+            <when state="math1" output="⊂"/>
+            <when state="open" output="❨"/>
+            <when state="specials" output="ƣ"/>
+            <!-- added -->
+        </action>
+        <action id="r">
+            <when state="none" output="r"/>
+            <when state="acute" output="ŕ"/>
+            <when state="caron" output="ř"/>
+            <when state="cedilla" output="ŗ"/>
+            <when state="circled" output="ⓡ"/>
+            <when state="close" output="❯"/>
+            <when state="combining" output="̫"/>
+            <when state="ctrl" output="␒"/>
+            <when state="dotabove" output="ṙ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ṛ"/>
+            <!-- added -->
+            <when state="doublegrave" output="ȑ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｒ"/>
+            <when state="greek" output="ρ"/>
+            <when state="hebrew" output="ר"/>
+            <when state="hooked" output="ʈ"/>
+            <!-- added -->
+            <when state="invertedbreve" output="ȓ"/>
+            <!-- added -->
+            <when state="ipa" output="ɹ"/>
+            <when state="keyboard" output="⇤"/>
+            <when state="macron" output="ṝ"/>
+            <!-- added -->
+            <when state="macronbelow" output="ṟ"/>
+            <!-- added -->
+            <when state="math1" output="√"/>
+            <when state="open" output="❮"/>
+            <when state="specials" output="ʀ"/>
+            <!-- added -->
+            <when state="subscript" output="ᵣ"/>
+            <when state="superscript" output="ʳ"/>
+        </action>
+        <action id="ringabove">
+            <when state="none" output="⇧"/>
+            <when state="combining" output="̥"/>
+            <when state="greek" output="ϟ"/>
+            <when state="hebrew" output="ך"/>
+            <when state="latin" next="ringabove"/>
+            <when state="superscript" output="ᷜ"/>
+        </action>
+        <action id="s">
+            <when state="none" output="s"/>
+            <when state="acute" output="ś"/>
+            <when state="caron" output="š"/>
+            <when state="cedilla" output="ş"/>
+            <when state="circled" output="ⓢ"/>
+            <when state="circumflex" output="ŝ"/>
+            <when state="close" output="⁾"/>
+            <when state="combining" output="̑"/>
+            <when state="commabelow" output="ș"/>
+            <when state="ctrl" output="␓"/>
+            <when state="dotabove" output="ṡ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ṣ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｓ"/>
+            <when state="greek" output="σ"/>
+            <when state="hebrew" output="ס"/>
+            <when state="hooked" output="ʃ"/>
+            <!-- added -->
+            <when state="keyboard" output="⇧"/>
+            <when state="latin" next="invertedbreve"/>
+            <when state="macron" output="s̄"/>
+            <!-- added -->
+            <when state="math1" output="∑"/>
+            <when state="open" output="⁽"/>
+            <when state="specials" output="ſ"/>
+            <!-- added -->
+            <when state="superscript" output="ˢ"/>
+        </action>
+        <action id="semicolon">
+            <when state="none" output=";"/>
+            <when state="combining" output="̚"/>
+            <when state="fullwidth" output="；"/>
+            <when state="latin" next="specials"/>
+            <when state="math1" output="∴"/>
+            <when state="open" output="‛"/>
+        </action>
+        <action id="slash">
+            <when state="none" output="/"/>
+            <when state="close" output="⦔"/>
+            <when state="combining" output="̷"/>
+            <when state="ctrl" output="␡"/>
+            <when state="fraction1" output="⅟"/>
+            <when state="fraction10" output="¹⁰⁄"/>
+            <when state="fraction11" output="¹¹⁄"/>
+            <when state="fraction12" output="¹²⁄"/>
+            <when state="fraction13" output="¹³⁄"/>
+            <when state="fraction14" output="¹⁴⁄"/>
+            <when state="fraction15" output="¹⁵⁄"/>
+            <when state="fraction2" output="²⁄"/>
+            <when state="fraction3" output="³⁄"/>
+            <when state="fraction4" output="⁴⁄"/>
+            <when state="fraction5" output="⁵⁄"/>
+            <when state="fraction6" output="⁶⁄"/>
+            <when state="fraction7" output="⁷⁄"/>
+            <when state="fraction8" output="⁸⁄"/>
+            <when state="fraction9" output="⁹⁄"/>
+            <when state="fullwidth" output="／"/>
+            <when state="keyboard" output="⎇"/>
+            <when state="math1" output="∕"/>
+            <when state="open" output="⦓"/>
+            <when state="superscript" output="⁄"/>
+        </action>
+        <action id="slash 1">
+            <when state="none" output="/"/>
+            <when state="fullwidth" output="／"/>
+        </action>
+        <action id="slash 2">
+            <when state="none" output="/"/>
+            <when state="fullwidth" output="／"/>
+        </action>
+        <action id="specials">
+            <when state="none" next="specials"/>
+            <!-- added -->
+        </action>
+        <action id="t">
+            <when state="none" output="t"/>
+            <when state="caron" output="ť"/>
+            <when state="cedilla" output="ţ"/>
+            <when state="circled" output="ⓣ"/>
+            <when state="circumflexbelow" output="ṱ"/>
+            <!-- added -->
+            <when state="close" output="❱"/>
+            <when state="combining" output="̘"/>
+            <when state="commabelow" output="ț"/>
+            <when state="ctrl" output="␔"/>
+            <when state="diaeresis" output="ẗ"/>
+            <!-- added -->
+            <when state="dotabove" output="ṫ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ṭ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｔ"/>
+            <when state="greek" output="τ"/>
+            <when state="hebrew" output="ט"/>
+            <when state="hooked" output="ƭ"/>
+            <!-- added -->
+            <when state="ipa" output="ʇ"/>
+            <when state="keyboard" output="⇥"/>
+            <when state="macronbelow" output="ṯ"/>
+            <!-- added -->
+            <when state="open" output="❰"/>
+            <when state="stroke" output="ŧ"/>
+            <!-- added -->
+            <when state="superscript" output="ᵗ"/>
+        </action>
+        <action id="tilde">
+            <when state="none" next="tilde"/>
+            <when state="close" output="︶"/>
+            <when state="combining" output="̰"/>
+            <when state="hebrew" output="ן"/>
+            <when state="latin" next="tilde"/>
+            <when state="open" output="︵"/>
+            <when state="superscript" output="ᷠ"/>
+        </action>
+        <action id="tildebelow">
+            <when state="none" next="tildebelow"/>
+            <!-- added -->
+        </action>
+        <action id="u">
+            <when state="none" output="u"/>
+            <when state="acute" output="ú"/>
+            <when state="breve" output="ŭ"/>
+            <when state="caron" output="ǔ"/>
+            <!-- added -->
+            <when state="circled" output="ⓤ"/>
+            <when state="circumflex" output="û"/>
+            <when state="circumflexbelow" output="ṷ"/>
+            <!-- added -->
+            <when state="close" output="❵"/>
+            <when state="combining" output="̈"/>
+            <when state="ctrl" output="␕"/>
+            <when state="diaeresis" output="ü"/>
+            <when state="dotbelow" output="ụ"/>
+            <!-- added -->
+            <when state="doubleacute" output="ű"/>
+            <when state="doublegrave" output="ȕ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｕ"/>
+            <when state="grave" output="ù"/>
+            <when state="greek" output="θ"/>
+            <when state="hebrew" output="ת"/>
+            <when state="hook" output="ủ"/>
+            <!-- added -->
+            <when state="hooked" output="ʋ"/>
+            <!-- added -->
+            <when state="horn" output="ư"/>
+            <!-- added -->
+            <when state="invertedbreve" output="ȗ"/>
+            <!-- added -->
+            <when state="keyboard" output="⎊"/>
+            <when state="latin" next="diaresis"/>
+            <when state="macron" output="ū"/>
+            <when state="math1" output="∪"/>
+            <when state="ogonek" output="ų"/>
+            <when state="open" output="❴"/>
+            <when state="ringabove" output="ů"/>
+            <when state="specials" output="ʊ"/>
+            <!-- added -->
+            <when state="stroke" output="ʉ"/>
+            <!-- added -->
+            <when state="subscript" output="ᵤ"/>
+            <when state="superscript" output="ᵘ"/>
+            <when state="tilde" output="ũ"/>
+            <!-- added -->
+            <when state="tildebelow" output="ṵ"/>
+            <!-- added -->
+        </action>
+        <action id="v">
+            <when state="none" output="v"/>
+            <when state="acute" output="ǘ"/>
+            <!-- added -->
+            <when state="caron" output="ǚ"/>
+            <!-- added -->
+            <when state="circled" output="ⓥ"/>
+            <when state="close" output="〕"/>
+            <when state="combining" output="̌"/>
+            <when state="ctrl" output="␖"/>
+            <when state="dotbelow" output="ṿ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｖ"/>
+            <when state="grave" output="ǜ"/>
+            <!-- added -->
+            <when state="greek" output="ω"/>
+            <when state="hebrew" output="ו"/>
+            <when state="ipa" output="ʌ"/>
+            <when state="keyboard" output="⌄"/>
+            <when state="latin" next="caron"/>
+            <when state="macron" output="ǖ"/>
+            <!-- added -->
+            <when state="math1" output="∨"/>
+            <when state="open" output="〔"/>
+            <when state="specials" output="ʌ"/>
+            <!-- added -->
+            <when state="subscript" output="ᵥ"/>
+            <when state="superscript" output="ᵛ"/>
+            <when state="tilde" output="ṽ"/>
+            <!-- added -->
+        </action>
+        <action id="w">
+            <when state="none" output="w"/>
+            <when state="acute" output="ẃ"/>
+            <!-- added -->
+            <when state="circled" output="ⓦ"/>
+            <when state="circumflex" output="ŵ"/>
+            <when state="close" output="❫"/>
+            <when state="combining" output="̇"/>
+            <when state="ctrl" output="␗"/>
+            <when state="diaeresis" output="ẅ"/>
+            <!-- added -->
+            <when state="dotabove" output="ẇ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ẉ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｗ"/>
+            <when state="grave" output="ẁ"/>
+            <!-- added -->
+            <when state="greek" output="ς"/>
+            <when state="hebrew" output="ש"/>
+            <when state="ipa" output="ʍ"/>
+            <when state="latin" next="dotabove"/>
+            <when state="math1" output="⊃"/>
+            <when state="open" output="❪"/>
+            <when state="ringabove" output="ẘ"/>
+            <!-- added -->
+            <when state="specials" output="ƿ"/>
+            <!-- added -->
+            <when state="superscript" output="ʷ"/>
+        </action>
+        <action id="x">
+            <when state="none" output="x"/>
+            <when state="caron" output="ǯ"/>
+            <!-- added -->
+            <when state="circled" output="ⓧ"/>
+            <when state="close" output="」"/>
+            <when state="combining" output="̣"/>
+            <when state="ctrl" output="␘"/>
+            <when state="diaeresis" output="ẍ"/>
+            <!-- added -->
+            <when state="dotabove" output="ẋ"/>
+            <!-- added -->
+            <when state="fraction1" output="¹⁄ₓ"/>
+            <when state="fraction10" output="¹⁰⁄ₓ"/>
+            <when state="fraction11" output="¹¹⁄ₓ"/>
+            <when state="fraction12" output="¹²⁄ₓ"/>
+            <when state="fraction13" output="¹³⁄ₓ"/>
+            <when state="fraction14" output="¹⁴⁄ₓ"/>
+            <when state="fraction15" output="¹⁵⁄ₓ"/>
+            <when state="fraction2" output="²⁄ₓ"/>
+            <when state="fraction3" output="³⁄ₓ"/>
+            <when state="fraction4" output="⁴⁄ₓ"/>
+            <when state="fraction5" output="⁵⁄ₓ"/>
+            <when state="fraction6" output="⁶⁄ₓ"/>
+            <when state="fraction7" output="⁷⁄ₓ"/>
+            <when state="fraction8" output="⁸⁄ₓ"/>
+            <when state="fraction9" output="⁹⁄ₓ"/>
+            <when state="fullwidth" output="ｘ"/>
+            <when state="greek" output="χ"/>
+            <when state="hooked" output="ɖ"/>
+            <!-- added -->
+            <when state="keyboard" output="⌧"/>
+            <when state="latin" next="dotbelow"/>
+            <when state="math1" output="∃"/>
+            <when state="open" output="「"/>
+            <when state="subscript" output="ₓ"/>
+            <when state="superscript" output="ˣ"/>
+        </action>
+        <action id="y">
+            <when state="none" output="y"/>
+            <when state="acute" output="ý"/>
+            <when state="circled" output="ⓨ"/>
+            <when state="circumflex" output="ŷ"/>
+            <when state="close" output="❳"/>
+            <when state="combining" output="̏"/>
+            <when state="ctrl" output="␙"/>
+            <when state="diaeresis" output="ÿ"/>
+            <when state="dotabove" output="ẏ"/>
+            <!-- added -->
+            <when state="dotbelow" output="ỵ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｙ"/>
+            <when state="grave" output="ỳ"/>
+            <!-- added -->
+            <when state="greek" output="υ"/>
+            <when state="hebrew" output="י"/>
+            <when state="hook" output="ỷ"/>
+            <!-- added -->
+            <when state="hooked" output="ƴ"/>
+            <!-- added -->
+            <when state="ipa" output="ʎ"/>
+            <when state="keyboard" output="⌽"/>
+            <when state="latin" next="doublegrave"/>
+            <when state="macron" output="ȳ"/>
+            <!-- added -->
+            <when state="open" output="❲"/>
+            <when state="ringabove" output="ẙ"/>
+            <!-- added -->
+            <when state="specials" output="ȝ"/>
+            <!-- added -->
+            <when state="superscript" output="ʸ"/>
+            <when state="tilde" output="ỹ"/>
+            <!-- added -->
+        </action>
+        <action id="z">
+            <when state="none" output="z"/>
+            <when state="acute" output="ź"/>
+            <when state="caron" output="ž"/>
+            <when state="cedilla" output="z̧"/>
+            <!-- added -->
+            <when state="circled" output="ⓩ"/>
+            <when state="circumflex" output="ẑ"/>
+            <!-- added -->
+            <when state="close" output="〉"/>
+            <when state="combining" output="̉"/>
+            <when state="ctrl" output="␚"/>
+            <when state="dotabove" output="ż"/>
+            <when state="dotbelow" output="ẓ"/>
+            <!-- added -->
+            <when state="fullwidth" output="ｚ"/>
+            <when state="greek" output="ζ"/>
+            <when state="hebrew" output="ז"/>
+            <when state="hooked" output="ȥ"/>
+            <!-- added -->
+            <when state="keyboard" output="⌘"/>
+            <when state="latin" next="hook"/>
+            <when state="macron" output="z̄"/>
+            <!-- added -->
+            <when state="macronbelow" output="ẕ"/>
+            <!-- added -->
+            <when state="math1" output="∞"/>
+            <when state="open" output="〈"/>
+            <when state="specials" output="ʒ"/>
+            <!-- added -->
+            <when state="stroke" output="ƶ"/>
+            <!-- added -->
+            <when state="superscript" output="ᶻ"/>
+        </action>
+        <action id="{">
+            <when state="none" output="{"/>
+            <when state="fullwidth" output="｛"/>
+            <when state="open" output="⦃"/>
+            <when state="subscript" output="ᵩ"/>
+            <when state="superscript" output="ᵠ"/>
+        </action>
+        <action id="|">
+            <when state="none" output="|"/>
+            <when state="close" output="⧛"/>
+            <when state="fullwidth" output="｜"/>
+            <when state="math1" output="∣"/>
+            <when state="open" output="⧚"/>
+            <when state="subscript" output="ᵨ"/>
+        </action>
+        <action id="}">
+            <when state="none" output="}"/>
+            <when state="fullwidth" output="｝"/>
+            <when state="open" output="⦄"/>
+            <when state="subscript" output="ᵪ"/>
+            <when state="superscript" output="ᵡ"/>
+        </action>
+        <action id="~">
+            <when state="none" output="~"/>
+            <when state="close" output="»"/>
+            <when state="combining" output="̀"/>
+            <when state="fullwidth" output="～"/>
+            <when state="latin" output="̀"/>
+            <when state="math1" output="∼"/>
+            <when state="open" output="«"/>
+        </action>
+        <action id=" ">
+            <when state="none" output=" "/>
+            <when state="circled" output="○"/>
+            <when state="ctrl" output="␣"/>
+            <when state="keyboard" output="␢"/>
+        </action>
+        <action id="  1">
+            <when state="none" output=" "/>
+            <when state="circled" output="⃝"/>
+            <when state="keyboard" output="⃣"/>
+        </action>
+        <action id="¡">
+            <when state="none" output="¬"/>
+            <when state="circled" output="❶"/>
+            <when state="combining" output="͝"/>
+        </action>
+        <action id="¢">
+            <when state="none" output="¢"/>
+            <when state="circled" output="❹"/>
+            <when state="ctrl" output="⑇"/>
+        </action>
+        <action id="£">
+            <when state="none" output="#"/>
+            <when state="circled" output="❸"/>
+            <when state="ctrl" output="⑉"/>
+        </action>
+        <action id="§">
+            <when state="none" output="§"/>
+            <when state="circled" output="⓱"/>
+        </action>
+        <action id="©">
+            <when state="none" output="©"/>
+            <when state="close" output="︘"/>
+            <when state="combining" output="͑"/>
+            <when state="open" output="︗"/>
+            <when state="subscript" output="ᷗ"/>
+            <when state="superscript" output="ᷗ"/>
+        </action>
+        <action id="«">
+            <when state="none" output="†"/>
+            <when state="circled" output="❾"/>
+            <when state="ctrl" output="⑄"/>
+        </action>
+        <action id="¬">
+            <when state="none" output="¡"/>
+            <when state="circled" output="⓫"/>
+            <when state="combining" output="͡"/>
+        </action>
+        <action id="®">
+            <when state="none" output="®"/>
+            <when state="subscript" output="ᷢ"/>
+            <when state="superscript" output="ᷢ"/>
+        </action>
+        <action id="°">
+            <when state="none" output="°"/>
+            <when state="circled" output="⓲"/>
+        </action>
+        <action id="±">
+            <when state="none" output="±"/>
+            <when state="math1" output="≄"/>
+        </action>
+        <action id="¶">
+            <when state="none" output="¶"/>
+            <when state="circled" output="❼"/>
+            <when state="combining" output="͛"/>
+            <when state="ctrl" output="⑂"/>
+        </action>
+        <action id="·">
+            <when state="none" output="·"/>
+            <when state="circled" output="❷"/>
+            <when state="combining" output="͞"/>
+            <when state="superscript" output="ᷣ"/>
+        </action>
+        <action id="»">
+            <when state="none" output="‡"/>
+            <when state="circled" output="⓿"/>
+            <when state="combining" output="̿"/>
+            <when state="ctrl" output="⑅"/>
+        </action>
+        <action id="Å">
+            <when state="none" output="Å"/>
+            <when state="acute" output="Ǻ"/>
+        </action>
+        <action id="Æ">
+            <when state="none" output="”"/>
+            <when state="acute" output="Ǽ"/>
+            <when state="combining" output="͈"/>
+            <when state="macron" output="Ǣ"/>
+            <when state="math1" output="⁗"/>
+        </action>
+        <action id="×">
+            <when state="none" output="×"/>
+            <when state="circled" output="❽"/>
+            <when state="ctrl" output="⑃"/>
+        </action>
+        <action id="Ø">
+            <when state="none" output="Œ"/>
+            <when state="acute" output="Ǿ"/>
+            <when state="greek" output="Ϡ"/>
+            <when state="subscript" output="ᷕ"/>
+            <when state="superscript" output="ᷕ"/>
+        </action>
+        <action id="ß">
+            <when state="none" next="superscript"/>
+            <when state="combining" output="̯"/>
+            <when state="greek" output="ς"/>
+            <when state="latin" next="invertedbreve"/>
+            <when state="superscript" output="ᷤ"/>
+        </action>
+        <action id="å">
+            <when state="none" output="å"/>
+            <when state="acute" output="ǻ"/>
+        </action>
+        <action id="æ">
+            <when state="none" output="’"/>
+            <when state="acute" output="ǽ"/>
+            <when state="close" output="〞"/>
+            <when state="combining" output="̩"/>
+            <when state="macron" output="ǣ"/>
+            <when state="math1" output="‴"/>
+            <when state="open" output="〝"/>
+        </action>
+        <action id="ð">
+            <when state="none" output="ð"/>
+            <when state="hebrew" output="ℸ"/>
+            <when state="math1" output="≝"/>
+            <when state="superscript" output="ͩ"/>
+        </action>
+        <action id="÷">
+            <when state="none" output="÷"/>
+            <when state="ctrl" output="␥"/>
+            <when state="math1" output="≟"/>
+            <when state="subscript" output="⁄"/>
+        </action>
+        <action id="ø">
+            <when state="none" output="œ"/>
+            <when state="acute" output="ǿ"/>
+            <when state="greek" output="ϡ"/>
+            <when state="superscript" output="ͦ"/>
+        </action>
+        <action id="π">
+            <when state="none" output="℞"/>
+            <when state="bold" output="ℿ"/>
+            <when state="combining" output="̒"/>
+            <when state="math1" output="∐"/>
+        </action>
+        <action id="–">
+            <when state="none" output="–"/>
+            <when state="circled" output="⓴"/>
+            <when state="combining" output="̵"/>
+            <when state="ctrl" output="⑈"/>
+        </action>
+        <action id="—">
+            <when state="none" output="—"/>
+            <when state="circled" output="⓴"/>
+        </action>
+        <action id="‘">
+            <when state="none" output="›"/>
+            <when state="specials" output="ʻ"/>
+        </action>
+        <action id="‘ 1">
+            <when state="none" output="‘"/>
+            <when state="combining" output="̖"/>
+            <when state="latin" next="grave"/>
+            <when state="math1" output="≉"/>
+        </action>
+        <action id="’">
+            <when state="none" output="»"/>
+            <when state="specials" output="ʼ"/>
+        </action>
+        <action id="“">
+            <when state="none" output="‹"/>
+            <when state="combining" output="̕"/>
+            <when state="specials" output="ʽ"/>
+        </action>
+        <action id="“ 1">
+            <when state="none" output="“"/>
+            <when state="combining" output="̒"/>
+            <when state="math1" output="≁"/>
+        </action>
+        <action id="†">
+            <when state="none" next="circumflex"/>
+            <when state="circled" output="❻"/>
+            <when state="combining" output="̭"/>
+            <when state="ctrl" output="⑁"/>
+            <when state="latin" next="circumflex"/>
+        </action>
+        <action id="‡">
+            <when state="none" output="∧"/>
+            <when state="circled" output="⓰"/>
+            <when state="combining" output="͕"/>
+        </action>
+        <action id="•">
+            <when state="none" output="•"/>
+            <when state="circled" output="⓬"/>
+        </action>
+        <action id="…">
+            <when state="none" output="…"/>
+            <when state="combining" output="͉"/>
+            <when state="latin" next="specials"/>
+            <when state="math1" output="∶"/>
+            <when state="open" output="〝"/>
+        </action>
+        <action id="‰">
+            <when state="none" output="‰"/>
+            <when state="circled" output="❺"/>
+            <when state="ctrl" output="⑀"/>
+        </action>
+        <action id="‱">
+            <when state="none" output="‱"/>
+            <when state="circled" output="⓯"/>
+            <when state="combining" output="͔"/>
+        </action>
+        <action id="‹">
+            <when state="none" output="′"/>
+            <when state="circled" output="⓳"/>
+        </action>
+        <action id="›">
+            <when state="none" output="″"/>
+            <when state="circled" output="❿"/>
+        </action>
+        <action id="€">
+            <when state="none" output="€"/>
+            <when state="circled" output="⓮"/>
+        </action>
+        <action id="™">
+            <when state="none" output="™"/>
+            <when state="combining" output="̝"/>
+        </action>
+        <action id="Ω">
+            <when state="none" output="♯"/>
+            <when state="circled" output="⓭"/>
+        </action>
+        <action id="↑">
+            <when state="none" output="↑"/>
+            <when state="greek" output="Ϟ"/>
+        </action>
+        <action id="→">
+            <when state="none" output="→"/>
+            <when state="subscript" output="ᷞ"/>
+            <when state="superscript" output="ᷞ"/>
+        </action>
+        <action id="↦">
+            <when state="none" output="∘"/>
+            <when state="subscript" output="ᷘ"/>
+            <when state="superscript" output="ᷘ"/>
+        </action>
+        <action id="⇒">
+            <when state="none" output="℄"/>
+            <when state="greek" output="Ϝ"/>
+            <when state="subscript" output="ᷛ"/>
+            <when state="superscript" output="ᷛ"/>
+        </action>
+        <action id="∀">
+            <when state="none" output="Æ"/>
+            <when state="combining" output="̲"/>
+        </action>
+        <action id="∂">
+            <when state="none" output="Ð"/>
+            <when state="math1" output="∇"/>
+            <when state="subscript" output="ᷙ"/>
+            <when state="superscript" output="ᷙ"/>
+        </action>
+        <action id="∃">
+            <when state="none" output="⊻"/>
+            <when state="close" output="﹄"/>
+            <when state="combining" output="͓"/>
+            <when state="open" output="﹃"/>
+        </action>
+        <action id="∈">
+            <when state="none" output="ə"/>
+            <when state="math1" output="∌"/>
+            <when state="subscript" output="ᷔ"/>
+            <when state="superscript" output="ᷔ"/>
+        </action>
+        <action id="∑">
+            <when state="none" output="ſ"/>
+            <when state="subscript" output="ᷥ"/>
+            <when state="superscript" output="ᷥ"/>
+        </action>
+        <action id="∖">
+            <when state="none" output="⌦"/>
+            <when state="math1" output="∤"/>
+        </action>
+        <action id="√">
+            <when state="none" output="∨"/>
+            <when state="close" output="﹞"/>
+            <when state="combining" output="͗"/>
+            <when state="greek" output="℧"/>
+            <when state="open" output="﹝"/>
+            <when state="subscript" output="ᷖ"/>
+            <when state="superscript" output="ᷖ"/>
+        </action>
+        <action id="√ 1">
+            <when state="none" output="♭"/>
+            <when state="combining" output="͖"/>
+        </action>
+        <action id="∞">
+            <when state="none" output="⎇"/>
+            <when state="close" output="︾"/>
+            <when state="combining" output="̢"/>
+            <when state="open" output="︽"/>
+        </action>
+        <action id="∩">
+            <when state="none" output="∩"/>
+            <when state="math1" output="∮"/>
+        </action>
+        <action id="∴">
+            <when state="none" output="⋮"/>
+            <when state="math1" output="∷"/>
+        </action>
+        <action id="≠">
+            <when state="none" output="≠"/>
+            <when state="ctrl" output="⑆"/>
+            <when state="math1" output="≢"/>
+        </action>
+        <action id="≤">
+            <when state="none" output="≤"/>
+            <when state="close" output="〉"/>
+            <when state="combining" output="̓"/>
+            <when state="math1" output="≮"/>
+            <when state="open" output="〈"/>
+        </action>
+        <action id="≥">
+            <when state="none" output="≥"/>
+            <when state="combining" output="̇"/>
+            <when state="latin" next="hooked"/>
+            <when state="math1" output="≯"/>
+        </action>
+        <action id="≪">
+            <when state="none" output="≪"/>
+            <when state="close" output="﹥"/>
+            <when state="combining" output="̒"/>
+            <when state="math1" output="≨"/>
+            <when state="open" output="﹤"/>
+        </action>
+        <action id="≫">
+            <when state="none" output="≫"/>
+            <when state="math1" output="≩"/>
+        </action>
+        <action id="⊂">
+            <when state="none" output="Þ"/>
+            <when state="combining" output="͆"/>
+            <when state="math1" output="⊊"/>
+        </action>
+        <action id="⊃">
+            <when state="none" output="Ω"/>
+            <when state="greek" output="Ϛ"/>
+            <when state="math1" output="⊋"/>
+        </action>
+    </actions>
+    <terminators>
+        <when state="acute" output="´"/>
+        <when state="bold" output="ℤ"/>
+        <when state="breve" output="˘"/>
+        <when state="caron" output="ˇ"/>
+        <when state="cedilla" output="¸"/>
+        <when state="circled" output="◯"/>
+        <when state="circumflex" output="ˆ"/>
+        <when state="circumflexbelow" output="‸"/>
+        <!-- added -->
+        <when state="close" output="⟧"/>
+        <when state="combining" output=""/>
+        <when state="commabelow" output=","/>
+        <when state="ctrl" output="⌃"/>
+        <when state="diaeresis" output="¨"/>
+        <when state="diaresis" output="¨"/>
+        <when state="dotabove" output="˙"/>
+        <when state="dotbelow" output="."/>
+        <!-- added -->
+        <when state="doubleacute" output="˝"/>
+        <when state="doublegrave" output=" ̏"/>
+        <!-- added -->
+        <when state="fraction" output="⅟"/>
+        <when state="fraction1" output="¹⁄"/>
+        <when state="fraction10" output="¹⁰⁄"/>
+        <when state="fraction11" output="¹¹⁄"/>
+        <when state="fraction12" output="¹²⁄"/>
+        <when state="fraction13" output="¹³⁄"/>
+        <when state="fraction14" output="¹⁴⁄"/>
+        <when state="fraction15" output="¹⁵⁄"/>
+        <when state="fraction2" output="²⁄"/>
+        <when state="fraction3" output="³⁄"/>
+        <when state="fraction4" output="⁴⁄"/>
+        <when state="fraction5" output="⁵⁄"/>
+        <when state="fraction6" output="⁶⁄"/>
+        <when state="fraction7" output="⁷⁄"/>
+        <when state="fraction8" output="⁸⁄"/>
+        <when state="fraction9" output="⁹⁄"/>
+        <when state="fullwidth" output="f"/>
+        <when state="grave" output="`"/>
+        <when state="greek" output="γ"/>
+        <when state="hebrew" output="ℵ"/>
+        <when state="hook" output="ˀ"/>
+        <!-- added -->
+        <when state="hooked" output="ʔ"/>
+        <!-- added -->
+        <when state="horn" output="ʼ"/>
+        <!-- added -->
+        <when state="invertedbreve" output=" ̑"/>
+        <!-- added -->
+        <when state="ipa" output="ᴉ"/>
+        <when state="keyboard" output="␣"/>
+        <when state="latin" output="l"/>
+        <when state="macron" output="¯"/>
+        <when state="macronbelow" output="ˍ"/>
+        <!-- added -->
+        <when state="math1" output="µ"/>
+        <when state="ogonek" output="˛"/>
+        <when state="open" output="⟦"/>
+        <when state="ringabove" output="˚"/>
+        <when state="specials" output="№"/>
+        <!-- added -->
+        <when state="stroke" output="-"/>
+        <!-- added -->
+        <when state="subscript" output="₂"/>
+        <when state="superscript" output="²"/>
+        <when state="tilde" output="˜"/>
+        <when state="tildebelow" output=" ̰"/>
+        <!-- added -->
+    </terminators>
+</keyboard>
