@@ -95,8 +95,8 @@ partial alphanumeric_keys
 xkb_symbols "jquote" {
   name[Group1]= "JQuote";
   include "kps(english)"
-  key <AD11> {[bracketleft,  braceleft,   U300C,             guillemotleft   ]};
-  key <AD12> {[bracketright, braceright,  U300D,             guillemotright  ]};
+  key <AD11> {[bracketleft,  braceleft,   U300C,             U300E           ]};
+  key <AD12> {[bracketright, braceright,  U300D,             U300F           ]};
 };
 
 partial alphanumeric_keys
