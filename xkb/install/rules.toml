@@ -4,6 +4,7 @@ language = 'eng'
 
 [symbols.kps.variant]
 english =   {description='English'}
+english2 =  {description='English2'}
 math =      {description='Math'}
 lgp30 =     {description='LGP-30'}
 jquote =    {description='JQuote'}

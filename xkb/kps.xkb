@@ -85,16 +85,25 @@ xkb_symbols "english" {
 };
 
 partial alphanumeric_keys
+xkb_symbols "english2" {
+  name[Group1]= "English";
+  include "kps(english)"
+  key <BKSL> {[backslash,    bar,         brokenbar,         currency        ]};
+  key <AB08> {[comma,        less,        lessthanequal,     U232B           ]};
+  key <AB09> {[period,       greater,     greaterthanequal,  U2326           ]};
+};
+
+partial alphanumeric_keys
 xkb_symbols "lgp30" {
   name[Group1]= "LGP-30";
-  include "kps(english)"
+  include "kps(english2)"
   key <AD05> {[t,            T,           U1D40,             trademark       ]};
 };
 
 partial alphanumeric_keys
 xkb_symbols "jquote" {
   name[Group1]= "JQuote";
-  include "kps(english)"
+  include "kps(english2)"
   key <AD11> {[bracketleft,  braceleft,   U300C,             U300E           ]};
   key <AD12> {[bracketright, braceright,  U300D,             U300F           ]};
 };
@@ -102,7 +111,7 @@ xkb_symbols "jquote" {
 partial alphanumeric_keys
 xkb_symbols "controls" {
   name[Group1]= "Control characters";
-  include "kps(english)"
+  include "kps(english2)"
 
   key <TLDE> {[U0000,     asciitilde,  leftsinglequotemark, leftdoublequotemark]};
   key <AC01> {[U0001,     A,           ae,                  AE              ]};
@@ -306,7 +315,7 @@ xkb_symbols "alt" {
 partial modifier_keys
 xkb_symbols "kps1" {
   name[Group1]= "English (KPS1)";
-  include "kps(english)"
+  include "kps(english2)"
   include "kps(alt)"
 
   key <LCTL> { [ Control_L ] };
