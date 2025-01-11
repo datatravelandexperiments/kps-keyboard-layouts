@@ -292,7 +292,7 @@ xkb_symbols "fullwidth" {
   key <LSGT> {[less,         greater,     lessthanequal,     greaterthanequal]};
   key <AB11> {[sterling,     paragraph,   U226A,             U226B           ]};
   key <I126> {[plusminus,    degree,      diaeresis,         enopencircbullet]};
-  key <SPCE> {[space,        space,       nobreakspace,      thinspace       ]};
+  key <SPCE> {[space,        space,       U3000, U3000 ]};
 
   // End alphanumeric section
 
