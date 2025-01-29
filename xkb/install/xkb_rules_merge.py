@@ -30,9 +30,9 @@ class Variant:
         e = ET.SubElement(config_item, 'description')
         e.text = self.description
         if self.country:
-            e.append(countries_to_xml(self.country))
+            config_item.append(countries_to_xml(self.country))
         if self.language:
-            e.append(languages_to_xml(self.language))
+            config_item.append(languages_to_xml(self.language))
         ET.indent(variant, level=3)
         return variant
 
@@ -73,9 +73,9 @@ class Layout:
         e = ET.SubElement(config_item, 'description')
         e.text = self.description
         if (t := self.countries()):
-            e.append(countries_to_xml(t))
+            config_item.append(countries_to_xml(t))
         if (t := self.languages()):
-            e.append(languages_to_xml(t))
+            config_item.append(languages_to_xml(t))
 
         variant_list = ET.SubElement(layout, 'variantList')
         for v in self.variant.values():
@@ -132,10 +132,6 @@ def main(argv: Sequence[str] | None = None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--rules-lst', '-l', help='.lst rules file')
     parser.add_argument('--rules-xml', '-x', help='XML rules file')
-    parser.add_argument(
-        '--output-rules-lst', '-L', help='Output .lst rules file')
-    parser.add_argument(
-        '--output-rules-xml', '-X', help='Output XML rules file')
     parser.add_argument('file', metavar='TOML', help='input file name')
     args = parser.parse_args(argv[1 :])
 
